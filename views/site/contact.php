@@ -47,11 +47,21 @@ $this->params['breadcrumbs'][] = $this->title;
 
                     <?= $form->field($model, 'email') ?>
 
-                    <?= $form->field($model, 'subject') ?>
+                    <?= $form->field($model, 'subject')->widget(\mihaildev\elfinder\InputFile::className(), [
+                        'language'      => 'ru',
+                        'controller'    => 'elfinder', // вставляем название контроллера, по умолчанию равен elfinder
+                        //'filter'        => 'image',    // фильтр файлов, можно задать массив фильтров https://github.com/Studio-42/elFinder/wiki/Client-configuration-options#wiki-onlyMimes
+                        'template'      => '<div class="input-group">{input}<span class="input-group-btn">{button}</span></div>',
+                        'options'       => ['class' => 'form-control'],
+                        'buttonName'    => '<i class="fa fa-folder-open-o"></i>',
+                        'buttonOptions' => ['class' => 'btn btn-default'],
+                        'multiple'      => false       // возможность выбора нескольких файлов
+                    ]); ?>
 
                     <?= $form->field($model, 'body')->widget(\dosamigos\ckeditor\CKEditor::className(), [
                         'options' => ['rows' => 6, 'cols' => 80],
-                        'preset' => 'full'
+                        'preset' => 'full',
+                        'clientOptions' => \mihaildev\elfinder\ElFinder::ckeditorOptions('elfinder',[/* Some CKEditor Options */]),
                     ]) ?>
 
                     <?= $form->field($model, 'verifyCode')->widget(Captcha::className(), [

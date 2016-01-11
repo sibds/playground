@@ -10,12 +10,12 @@ $config = [
         'elfinder' => [
             'class' => 'mihaildev\elfinder\Controller',
             'access' => ['@', '?'], //глобальный доступ к фаил менеджеру @ - для авторизорованных , ? - для гостей , чтоб открыть всем ['@', '?']
-            'root' => [
+            'roots' => [
                 [
                     'baseUrl'=>'@web',
                     'basePath'=>'@webroot',
                     'path' => 'files',
-                    'name' => 'Files'
+                    'name' => 'Документы'
                 ]
             ]
         ]

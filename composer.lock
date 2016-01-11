@@ -397,12 +397,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-ckeditor-widget.git",
-                "reference": "e6137064a6d50fe185241cd7bb8b995c7e4d76bc"
+                "reference": "df4ce577a2b6accc691e67278ead0a53557f2ae5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-ckeditor-widget/zipball/e6137064a6d50fe185241cd7bb8b995c7e4d76bc",
-                "reference": "e6137064a6d50fe185241cd7bb8b995c7e4d76bc",
+                "url": "https://api.github.com/repos/sibds/yii2-ckeditor-widget/zipball/985aba7748ac0a32f1e9da2bbd722c53289e1030",
+                "reference": "df4ce577a2b6accc691e67278ead0a53557f2ae5",
                 "shasum": ""
             },
             "require": {
@@ -454,7 +454,7 @@
                 "yii 2",
                 "yii2"
             ],
-            "time": "2016-01-04 14:11:16"
+            "time": "2016-01-11 09:50:19"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -515,12 +515,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "bd970e228b29378c17fb9e221117432ef488cba2"
+                "reference": "7f88c65a27c9046e23227be6d72339cf61511c25"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/bd970e228b29378c17fb9e221117432ef488cba2",
-                "reference": "bd970e228b29378c17fb9e221117432ef488cba2",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7f88c65a27c9046e23227be6d72339cf61511c25",
+                "reference": "7f88c65a27c9046e23227be6d72339cf61511c25",
                 "shasum": ""
             },
             "require": {
@@ -601,7 +601,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-01-02 18:42:35"
+            "time": "2016-01-08 21:05:10"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -835,12 +835,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "3037df47eca2e534f62f061415a071f9b5d1a1a4"
+                "reference": "de2ed3bbe68254efeff68db60092fc8ed5298055"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/3037df47eca2e534f62f061415a071f9b5d1a1a4",
-                "reference": "3037df47eca2e534f62f061415a071f9b5d1a1a4",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/de2ed3bbe68254efeff68db60092fc8ed5298055",
+                "reference": "de2ed3bbe68254efeff68db60092fc8ed5298055",
                 "shasum": ""
             },
             "require": {
@@ -868,7 +868,7 @@
             ],
             "authors": [
                 {
-                    "name": "Francois Zaninotto"
+                    "name": "François Zaninotto"
                 }
             ],
             "description": "Faker is a PHP library that generates fake data for you.",
@@ -877,7 +877,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2015-11-30 17:35:42"
+            "time": "2016-01-08 14:16:18"
         },
         {
             "name": "phpspec/php-diff",
@@ -1058,12 +1058,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "402902fee3e5b4073aa98b2baa0414c6f38e0818"
+                "reference": "05dd7a27c575fb3dc3482b5bd24c8bd6c151ae45"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/402902fee3e5b4073aa98b2baa0414c6f38e0818",
-                "reference": "402902fee3e5b4073aa98b2baa0414c6f38e0818",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/05dd7a27c575fb3dc3482b5bd24c8bd6c151ae45",
+                "reference": "05dd7a27c575fb3dc3482b5bd24c8bd6c151ae45",
                 "shasum": ""
             },
             "require": {
@@ -1103,7 +1103,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2015-12-21 06:55:09"
+            "time": "2016-01-05 08:55:15"
         }
     ],
     "aliases": [],
