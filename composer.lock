@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "d9a811c3e1f42b2f400ac6be6fa2b9f7",
-    "content-hash": "568ad392c17a88a242e6a6f83adbb540",
+    "hash": "b4aed8c189f6df7fabe6ef543baa49d7",
+    "content-hash": "7af362c1f6fe99c64f1de6583b9d64f4",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -298,6 +298,50 @@
             "time": "2015-03-20 11:07:08"
         },
         {
+            "name": "creocoder/yii2-nested-sets",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/creocoder/yii2-nested-sets.git",
+                "reference": "ac447e98b644eed56bbbbcb695d7ecddc23af90e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/creocoder/yii2-nested-sets/zipball/ac447e98b644eed56bbbbcb695d7ecddc23af90e",
+                "reference": "ac447e98b644eed56bbbbcb695d7ecddc23af90e",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "~2.0.0"
+            },
+            "require-dev": {
+                "phpunit/dbunit": "~1.0",
+                "phpunit/phpunit": "~4.0"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "creocoder\\nestedsets\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Alexander Kochetov",
+                    "email": "creocoder@gmail.com"
+                }
+            ],
+            "description": "The nested sets behavior for the Yii framework",
+            "keywords": [
+                "nested sets",
+                "yii2"
+            ],
+            "time": "2015-02-25 21:37:22"
+        },
+        {
             "name": "ezyang/htmlpurifier",
             "version": "v4.6.0",
             "source": {
@@ -340,6 +384,52 @@
                 "html"
             ],
             "time": "2013-11-30 08:25:19"
+        },
+        {
+            "name": "kartik-v/yii2-krajee-base",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-krajee-base.git",
+                "reference": "0c274e31e4392cbafc5fe158eae81738794e02ce"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-krajee-base/zipball/0c274e31e4392cbafc5fe158eae81738794e02ce",
+                "reference": "0c274e31e4392cbafc5fe158eae81738794e02ce",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2-bootstrap": "@dev"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "kartik\\base\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "Base library and foundation components for all Yii2 Krajee extensions.",
+            "homepage": "https://github.com/kartik-v/yii2-krajee-base",
+            "keywords": [
+                "base",
+                "extension",
+                "foundation",
+                "krajee",
+                "widget",
+                "yii2"
+            ],
+            "time": "2016-01-10 12:26:29"
         },
         {
             "name": "mihaildev/yii2-elfinder",
@@ -397,12 +487,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-ckeditor-widget.git",
-                "reference": "df4ce577a2b6accc691e67278ead0a53557f2ae5"
+                "reference": "3c5148bd882ba2a66db88b4938706d42846f7ae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-ckeditor-widget/zipball/985aba7748ac0a32f1e9da2bbd722c53289e1030",
-                "reference": "df4ce577a2b6accc691e67278ead0a53557f2ae5",
+                "url": "https://api.github.com/repos/sibds/yii2-ckeditor-widget/zipball/3c5148bd882ba2a66db88b4938706d42846f7ae8",
+                "reference": "3c5148bd882ba2a66db88b4938706d42846f7ae8",
                 "shasum": ""
             },
             "require": {
@@ -454,7 +544,55 @@
                 "yii 2",
                 "yii2"
             ],
-            "time": "2016-01-11 09:50:19"
+            "time": "2016-01-11 11:13:03"
+        },
+        {
+            "name": "slatiusa/yii2-nestable",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/ASlatius/yii2-nestable.git",
+                "reference": "916c2ebb684689dfa72666555236b15a487c27d8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/ASlatius/yii2-nestable/zipball/916c2ebb684689dfa72666555236b15a487c27d8",
+                "reference": "916c2ebb684689dfa72666555236b15a487c27d8",
+                "shasum": ""
+            },
+            "require": {
+                "creocoder/yii2-nested-sets": "*",
+                "kartik-v/yii2-krajee-base": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "slatiusa\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Arno Slatius",
+                    "email": "a.slatius@gmail.com"
+                }
+            ],
+            "description": "Yii 2.0 implementation of nested set behavior using jquery.nestable plugin.",
+            "homepage": "https://github.com/Hommer101/yii2-nestable",
+            "keywords": [
+                "Behavior",
+                "extension",
+                "jquery",
+                "nestable",
+                "nested set",
+                "sortable",
+                "widget",
+                "yii2"
+            ],
+            "time": "2015-06-22 10:10:32"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -515,12 +653,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "7f88c65a27c9046e23227be6d72339cf61511c25"
+                "reference": "f472889710532a8dfd05bd8eb244d15d33ee1a11"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7f88c65a27c9046e23227be6d72339cf61511c25",
-                "reference": "7f88c65a27c9046e23227be6d72339cf61511c25",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f472889710532a8dfd05bd8eb244d15d33ee1a11",
+                "reference": "f472889710532a8dfd05bd8eb244d15d33ee1a11",
                 "shasum": ""
             },
             "require": {
@@ -601,7 +739,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-01-08 21:05:10"
+            "time": "2016-01-12 09:20:12"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
