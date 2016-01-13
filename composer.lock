@@ -397,12 +397,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-ckeditor-widget.git",
-                "reference": "df4ce577a2b6accc691e67278ead0a53557f2ae5"
+                "reference": "3c5148bd882ba2a66db88b4938706d42846f7ae8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-ckeditor-widget/zipball/985aba7748ac0a32f1e9da2bbd722c53289e1030",
-                "reference": "df4ce577a2b6accc691e67278ead0a53557f2ae5",
+                "url": "https://api.github.com/repos/sibds/yii2-ckeditor-widget/zipball/3c5148bd882ba2a66db88b4938706d42846f7ae8",
+                "reference": "3c5148bd882ba2a66db88b4938706d42846f7ae8",
                 "shasum": ""
             },
             "require": {
@@ -454,7 +454,7 @@
                 "yii 2",
                 "yii2"
             ],
-            "time": "2016-01-11 09:50:19"
+            "time": "2016-01-11 11:13:03"
         },
         {
             "name": "swiftmailer/swiftmailer",
