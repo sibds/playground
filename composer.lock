@@ -545,8 +545,6 @@
                 "yii2"
             ],
             "time": "2016-01-11 11:13:03"
-<<<<<<< HEAD
-=======
         },
         {
             "name": "slatiusa/yii2-nestable",
@@ -595,7 +593,6 @@
                 "yii2"
             ],
             "time": "2015-06-22 10:10:32"
->>>>>>> 86b990d7315e8e8997ffe64b18f75d615b1bbe47
         },
         {
             "name": "swiftmailer/swiftmailer",
