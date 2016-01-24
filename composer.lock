@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "b4aed8c189f6df7fabe6ef543baa49d7",
-    "content-hash": "7af362c1f6fe99c64f1de6583b9d64f4",
+    "hash": "caec9bf0893cbc9f316b77bfd0e03d12",
+    "content-hash": "4ba7e2e40e0eec65f1cefcfef1fc3a03",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -243,12 +243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "e14d3da8f84eefa3792fd22b5b5ecba9c98d2e18"
+                "reference": "d7b6f46cd423174c8a86c7f816dea45008dbf454"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/e14d3da8f84eefa3792fd22b5b5ecba9c98d2e18",
-                "reference": "e14d3da8f84eefa3792fd22b5b5ecba9c98d2e18",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/d7b6f46cd423174c8a86c7f816dea45008dbf454",
+                "reference": "d7b6f46cd423174c8a86c7f816dea45008dbf454",
                 "shasum": ""
             },
             "require": {
@@ -295,7 +295,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2015-03-20 11:07:08"
+            "time": "2016-01-21 11:46:58"
         },
         {
             "name": "creocoder/yii2-nested-sets",
@@ -437,15 +437,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/MihailDev/yii2-elfinder.git",
-                "reference": "91645f8fb836f5af47605c665a9affa7909c6b52"
+                "reference": "c96a60a01da7a638837582c9116e971a2755af4d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/MihailDev/yii2-elfinder/zipball/91645f8fb836f5af47605c665a9affa7909c6b52",
-                "reference": "91645f8fb836f5af47605c665a9affa7909c6b52",
+                "url": "https://api.github.com/repos/MihailDev/yii2-elfinder/zipball/c96a60a01da7a638837582c9116e971a2755af4d",
+                "reference": "c96a60a01da7a638837582c9116e971a2755af4d",
                 "shasum": ""
             },
             "require": {
+                "ext-phar": "*",
                 "yiisoft/yii2-jui": "*"
             },
             "type": "yii2-extension",
@@ -479,7 +480,7 @@
                 "filemanager",
                 "yii"
             ],
-            "time": "2015-10-20 10:40:23"
+            "time": "2016-01-18 16:23:05"
         },
         {
             "name": "sibds/yii2-ckeditor-widget",
@@ -548,16 +549,16 @@
         },
         {
             "name": "slatiusa/yii2-nestable",
-            "version": "v1.1.0",
+            "version": "v1.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ASlatius/yii2-nestable.git",
-                "reference": "916c2ebb684689dfa72666555236b15a487c27d8"
+                "reference": "4685cbd29366ca7429d5a4ddb847bb708839d62e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ASlatius/yii2-nestable/zipball/916c2ebb684689dfa72666555236b15a487c27d8",
-                "reference": "916c2ebb684689dfa72666555236b15a487c27d8",
+                "url": "https://api.github.com/repos/ASlatius/yii2-nestable/zipball/4685cbd29366ca7429d5a4ddb847bb708839d62e",
+                "reference": "4685cbd29366ca7429d5a4ddb847bb708839d62e",
                 "shasum": ""
             },
             "require": {
@@ -592,7 +593,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2015-06-22 10:10:32"
+            "time": "2016-01-24 17:52:36"
         },
         {
             "name": "swiftmailer/swiftmailer",
@@ -653,12 +654,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "f472889710532a8dfd05bd8eb244d15d33ee1a11"
+                "reference": "e4359f68b70caede1e09ecefb56e9435f7d140af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/f472889710532a8dfd05bd8eb244d15d33ee1a11",
-                "reference": "f472889710532a8dfd05bd8eb244d15d33ee1a11",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/e4359f68b70caede1e09ecefb56e9435f7d140af",
+                "reference": "e4359f68b70caede1e09ecefb56e9435f7d140af",
                 "shasum": ""
             },
             "require": {
@@ -739,7 +740,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-01-12 09:20:12"
+            "time": "2016-01-23 08:43:29"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -747,12 +748,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-bootstrap.git",
-                "reference": "7de7d5d63d655c0c69764f80f2dfc549e9b1d9f0"
+                "reference": "ef941bc83ea63326e44769b922476dc1035ea551"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/7de7d5d63d655c0c69764f80f2dfc549e9b1d9f0",
-                "reference": "7de7d5d63d655c0c69764f80f2dfc549e9b1d9f0",
+                "url": "https://api.github.com/repos/yiisoft/yii2-bootstrap/zipball/ef941bc83ea63326e44769b922476dc1035ea551",
+                "reference": "ef941bc83ea63326e44769b922476dc1035ea551",
                 "shasum": ""
             },
             "require": {
@@ -789,7 +790,7 @@
                 "bootstrap",
                 "yii2"
             ],
-            "time": "2015-12-19 19:45:57"
+            "time": "2016-01-24 17:03:09"
         },
         {
             "name": "yiisoft/yii2-composer",
@@ -1196,12 +1197,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "05dd7a27c575fb3dc3482b5bd24c8bd6c151ae45"
+                "reference": "d1a58d8c64f9075960665dc5347f5906ecb063cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/05dd7a27c575fb3dc3482b5bd24c8bd6c151ae45",
-                "reference": "05dd7a27c575fb3dc3482b5bd24c8bd6c151ae45",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/d1a58d8c64f9075960665dc5347f5906ecb063cf",
+                "reference": "d1a58d8c64f9075960665dc5347f5906ecb063cf",
                 "shasum": ""
             },
             "require": {
@@ -1241,7 +1242,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2016-01-05 08:55:15"
+            "time": "2016-01-15 17:12:14"
         }
     ],
     "aliases": [],

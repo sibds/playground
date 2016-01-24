@@ -1,28 +1,27 @@
 <?php
 
 namespace app\models;
-use creocoder\nestedsets\NestedSetsBehavior;
 
 use Yii;
+use creocoder\nestedsets\NestedSetsBehavior;
 
 /**
- * This is the model class for table "nstable".
+ * This is the model class for table "nscategory".
  *
  * @property integer $id
- * @property integer $tree
  * @property integer $lft
  * @property integer $rgt
  * @property integer $depth
  * @property string $name
  */
-class Nstable extends \yii\db\ActiveRecord
+class Nscategory extends \yii\db\ActiveRecord
 {
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return 'nstable';
+        return 'nscategory';
     }
 
     /**
@@ -32,7 +31,7 @@ class Nstable extends \yii\db\ActiveRecord
     {
         return [
             [['name'], 'required'],
-            [['tree', 'lft', 'rgt', 'depth'], 'integer'],
+            [['lft', 'rgt', 'depth'], 'integer'],
             [['name'], 'string'],
         ];
     }
@@ -41,10 +40,10 @@ class Nstable extends \yii\db\ActiveRecord
         return [
             'tree' => [
                 'class' => NestedSetsBehavior::className(),
-                 'treeAttribute' => 'tree',
-                 'leftAttribute' => 'lft',
-                 'rightAttribute' => 'rgt',
-                 'depthAttribute' => 'depth',
+                //'treeAttribute' => 'tree',
+                'leftAttribute' => 'lft',
+                'rightAttribute' => 'rgt',
+                'depthAttribute' => 'depth',
             ],
         ];
     }
@@ -56,14 +55,12 @@ class Nstable extends \yii\db\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'tree' => 'Tree',
             'lft' => 'Lft',
             'rgt' => 'Rgt',
             'depth' => 'Depth',
             'name' => 'Name',
         ];
     }
-
 
     public function transactions()
     {
@@ -74,10 +71,10 @@ class Nstable extends \yii\db\ActiveRecord
 
     /**
      * @inheritdoc
-     * @return NstableQuery the active query used by this AR class.
+     * @return NscategoryQuery the active query used by this AR class.
      */
     public static function find()
     {
-        return new NstableQuery(get_called_class());
+        return new NscategoryQuery(get_called_class());
     }
 }

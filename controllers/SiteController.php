@@ -4,6 +4,7 @@ namespace app\controllers;
 
 use app\models\Nstable;
 use Yii;
+use yii\base\Exception;
 use yii\filters\AccessControl;
 use yii\web\Controller;
 use yii\filters\VerbFilter;
@@ -61,7 +62,43 @@ class SiteController extends Controller
 
     public function actionNseditor()
     {
-        return $this->render('nseditor');
+        $model = new Nstable();
+
+        if(Yii::$app->request->isAjax){
+            echo 'Ajax';
+        }
+        if(Yii::$app->request->isPjax){
+            echo 'Pjax';
+        }
+        if (Yii::$app->request->isPost)
+        {
+            echo 'Post';
+            $model = new Nstable();
+            $model->load(Yii::$app->request->post());
+            if($model->validate())
+                $model->makeRoot();
+
+            $model = new Nstable(); // reset model
+        }
+
+        return $this->render('nseditor', ['model'=>$model]);
+    }
+
+    public function actionTest(){
+        $countries = new Nstable(['name' => 'Countries']);
+        $countries->makeRoot();
+
+        $russia = new Nstable(['name' => 'Russia']);
+        $russia->prependTo($countries);
+
+        $australia = new Nstable(['name' => 'Australia']);
+        $australia->appendTo($countries);
+
+        $newZeeland = new Nstable(['name' => 'New Zeeland']);
+        $newZeeland->insertBefore($australia);
+
+        $unitedStates = new Nstable(['name' => 'United States']);
+        $unitedStates->insertAfter($australia);
     }
 
     public function actionLogin()

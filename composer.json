@@ -20,7 +20,7 @@
         "yiisoft/yii2-swiftmailer": "*",
         "sibds/yii2-ckeditor-widget": "dev-master",
         "mihaildev/yii2-elfinder": "*",
-        "slatiusa/yii2-nestable": "^1.1.0"
+        "slatiusa/yii2-nestable": "^1.2.0"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

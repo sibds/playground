@@ -10,7 +10,7 @@ use yii\widgets\Pjax;
 
 use slatiusa\nestable\Nestable;
 
-$this->title = 'Menu Editor';
+$this->title = 'Category Editor';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
 <div class="ns-index">
@@ -18,12 +18,12 @@ $this->params['breadcrumbs'][] = $this->title;
 
     <p>
         <?= Html::a(Yii::t('app', 'Создать {modelClass}', [
-            'modelClass' => 'Nstable',
+            'modelClass' => 'Nscategory',
         ]), ['create'], ['class' => 'btn btn-success']) ?>
     </p>
 
     <!-- Render create form -->
-    <?= $this->render('_form', [
+    <?= $this->render('//site/_form', [
         'model' => $model,
     ]) ?>
 
@@ -35,7 +35,7 @@ $this->params['breadcrumbs'][] = $this->title;
             <?php
             echo Nestable::widget([
                 'type' => Nestable::TYPE_WITH_HANDLE,
-                'query' => \app\models\Nstable::find()->roots(),
+                'query' => \app\models\Nscategory::find()->roots()->one()?\app\models\Nscategory::find()->roots()->one()->children(1):null,
                 'modelOptions' => [
                     'name' => 'name'
                 ],
