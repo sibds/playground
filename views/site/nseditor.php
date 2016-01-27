@@ -33,20 +33,9 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <?php Pjax::begin(['id' => 'nsitems']) ?>
             <?php
-            echo Nestable::widget([
-                'type' => Nestable::TYPE_WITH_HANDLE,
-                'query' => \app\models\Nstable::find()->roots(),
-                'modelOptions' => [
-                    'name' => 'name'
-                ],
-                'pluginEvents' => [
-                    'change' => 'function(e) {}',
-                ],
-                'pluginOptions' => [
-                    'maxDepth' => 7,
-                ],
+            echo sibds\widgets\Nestable::widget([
+                'autoQuery' => \app\models\Nstable::find()
             ]);
-
             ?>
             <?php Pjax::end() ?>
 

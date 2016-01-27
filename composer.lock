@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "caec9bf0893cbc9f316b77bfd0e03d12",
-    "content-hash": "4ba7e2e40e0eec65f1cefcfef1fc3a03",
+    "hash": "ee5bec64a203fbe88a9816ed95ba375a",
+    "content-hash": "a3836f09022c46f0de7ad62f7e2d9927",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -127,16 +127,16 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.2.5",
+            "version": "3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
-                "reference": "d08264a678865849c808359d126e3bddb9ec87a6"
+                "reference": "7963205cb506bfbf5cc4a3b92d1892e0aa131eb2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/d08264a678865849c808359d126e3bddb9ec87a6",
-                "reference": "d08264a678865849c808359d126e3bddb9ec87a6",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/7963205cb506bfbf5cc4a3b92d1892e0aa131eb2",
+                "reference": "7963205cb506bfbf5cc4a3b92d1892e0aa131eb2",
                 "shasum": ""
             },
             "require": {
@@ -298,6 +298,44 @@
             "time": "2016-01-21 11:46:58"
         },
         {
+            "name": "components/flag-icon-css",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lipis/flag-icon-css.git",
+                "reference": "0b2eb7bd2f93f7cf546ee6b6aa44d9f07def6a7d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/0b2eb7bd2f93f7cf546ee6b6aa44d9f07def6a7d",
+                "reference": "0b2eb7bd2f93f7cf546ee6b6aa44d9f07def6a7d",
+                "shasum": ""
+            },
+            "type": "component",
+            "extra": {
+                "component": {
+                    "name": "flag-icon-css",
+                    "files": [
+                        "less/**",
+                        "css/**",
+                        "flags/**"
+                    ]
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Panayiotis Lipiridis (Lipis)",
+                    "email": "lipiridis@gmail.com"
+                }
+            ],
+            "description": "CSS for vector based country flags",
+            "time": "2016-01-25 00:08:29"
+        },
+        {
             "name": "creocoder/yii2-nested-sets",
             "version": "dev-master",
             "source": {
@@ -384,6 +422,102 @@
                 "html"
             ],
             "time": "2013-11-30 08:25:19"
+        },
+        {
+            "name": "fortawesome/font-awesome",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/FortAwesome/Font-Awesome.git",
+                "reference": "8333f68527f8b7ac08e755cc3b40321953253fe2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/8333f68527f8b7ac08e755cc3b40321953253fe2",
+                "reference": "8333f68527f8b7ac08e755cc3b40321953253fe2",
+                "shasum": ""
+            },
+            "require-dev": {
+                "jekyll": "1.0.2",
+                "lessc": "1.4.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "4.0.x-dev"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "OFL-1.1",
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Dave Gandy",
+                    "email": "dave@fontawesome.io",
+                    "homepage": "http://twitter.com/davegandy",
+                    "role": "Developer"
+                }
+            ],
+            "description": "The iconic font and CSS framework",
+            "homepage": "http://fontawesome.io/",
+            "keywords": [
+                "FontAwesome",
+                "awesome",
+                "bootstrap",
+                "font",
+                "icon"
+            ],
+            "time": "2016-01-18 16:11:23"
+        },
+        {
+            "name": "kartik-v/yii2-icons",
+            "version": "v1.4.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-icons.git",
+                "reference": "58100d3278799e7a13771de6e6ca2865fb60454d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-icons/zipball/58100d3278799e7a13771de6e6ca2865fb60454d",
+                "reference": "58100d3278799e7a13771de6e6ca2865fb60454d",
+                "shasum": ""
+            },
+            "require": {
+                "components/flag-icon-css": "*",
+                "fortawesome/font-awesome": "*",
+                "kartik-v/yii2-krajee-base": "*",
+                "yiisoft/yii2-jui": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "kartik\\icons\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD 3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://demos.krajee.com/"
+                }
+            ],
+            "description": "Set of icon frameworks for use in Yii Framework 2.0",
+            "homepage": "https://github.com/kartik-v/yii2-icons",
+            "keywords": [
+                "extension",
+                "font",
+                "icon",
+                "yii",
+                "yii2"
+            ],
+            "time": "2015-12-13 16:27:46"
         },
         {
             "name": "kartik-v/yii2-krajee-base",
@@ -548,6 +682,134 @@
             "time": "2016-01-11 11:13:03"
         },
         {
+            "name": "sibds/yii2-htmleditor",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sibds/yii2-htmleditor.git",
+                "reference": "ca564532f639b090fbae6d2542cfe385db78232b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sibds/yii2-htmleditor/zipball/ca564532f639b090fbae6d2542cfe385db78232b",
+                "reference": "ca564532f639b090fbae6d2542cfe385db78232b",
+                "shasum": ""
+            },
+            "require": {
+                "mihaildev/yii2-elfinder": "*",
+                "sibds/yii2-ckeditor-widget": "dev-master",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sibds\\widgets\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vadim Mazur",
+                    "email": "mazurva@gmail.com"
+                }
+            ],
+            "description": "HTML Editors for Yii2",
+            "keywords": [
+                "CKEditor",
+                "extension",
+                "yii2"
+            ],
+            "time": "2016-01-25 17:25:42"
+        },
+        {
+            "name": "sibds/yii2-inputfile",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sibds/yii2-inputfile.git",
+                "reference": "e59a5c64eb74564b2a6ea9bb399da5f290c35087"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sibds/yii2-inputfile/zipball/e59a5c64eb74564b2a6ea9bb399da5f290c35087",
+                "reference": "e59a5c64eb74564b2a6ea9bb399da5f290c35087",
+                "shasum": ""
+            },
+            "require": {
+                "mihaildev/yii2-elfinder": "*",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sibds\\widgets\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vadim Mazur",
+                    "email": "mazurva@gmail.com"
+                }
+            ],
+            "description": "FileInput with elFinder",
+            "keywords": [
+                "extension",
+                "file",
+                "input",
+                "yii2"
+            ],
+            "time": "2016-01-25 16:53:58"
+        },
+        {
+            "name": "sibds/yii2-nestable",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sibds/yii2-nestable.git",
+                "reference": "290e88ebcf38f34abdc8b96efade2bed3eab02de"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sibds/yii2-nestable/zipball/290e88ebcf38f34abdc8b96efade2bed3eab02de",
+                "reference": "290e88ebcf38f34abdc8b96efade2bed3eab02de",
+                "shasum": ""
+            },
+            "require": {
+                "slatiusa/yii2-nestable": "^1.2.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sibds\\widgets\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vadim Mazur",
+                    "email": "mazurva@gmail.com"
+                }
+            ],
+            "description": "Extend Nestable(https://github.com/ASlatius/yii2-nestable) for internal projects",
+            "keywords": [
+                "extension",
+                "nestable",
+                "yii2"
+            ],
+            "time": "2016-01-26 19:44:52"
+        },
+        {
             "name": "slatiusa/yii2-nestable",
             "version": "v1.2.0",
             "source": {
@@ -654,12 +916,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "e4359f68b70caede1e09ecefb56e9435f7d140af"
+                "reference": "c1c502ff2b792fac5470356373e243b77d2a36c7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/e4359f68b70caede1e09ecefb56e9435f7d140af",
-                "reference": "e4359f68b70caede1e09ecefb56e9435f7d140af",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/c1c502ff2b792fac5470356373e243b77d2a36c7",
+                "reference": "c1c502ff2b792fac5470356373e243b77d2a36c7",
                 "shasum": ""
             },
             "require": {
@@ -740,7 +1002,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-01-23 08:43:29"
+            "time": "2016-01-26 17:20:14"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -1248,7 +1510,10 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "sibds/yii2-ckeditor-widget": 20
+        "sibds/yii2-ckeditor-widget": 20,
+        "sibds/yii2-inputfile": 20,
+        "sibds/yii2-htmleditor": 20,
+        "sibds/yii2-nestable": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -8,8 +8,6 @@
 use \yii\bootstrap\Html;
 use yii\widgets\Pjax;
 
-use slatiusa\nestable\Nestable;
-
 $this->title = 'Category Editor';
 $this->params['breadcrumbs'][] = $this->title;
 ?>
@@ -33,18 +31,10 @@ $this->params['breadcrumbs'][] = $this->title;
 
             <?php Pjax::begin(['id' => 'nsitems']) ?>
             <?php
-            echo Nestable::widget([
-                'type' => Nestable::TYPE_WITH_HANDLE,
-                'query' => \app\models\Nscategory::find()->roots()->one()?\app\models\Nscategory::find()->roots()->one()->children(1):null,
-                'modelOptions' => [
-                    'name' => 'name'
-                ],
-                'pluginEvents' => [
-                    'change' => 'function(e) {}',
-                ],
-                'pluginOptions' => [
-                    'maxDepth' => 7,
-                ],
+            echo sibds\widgets\Nestable::widget([
+                'autoQuery' => \app\models\Nscategory::find(),
+                'rootable' => false,
+                'columns' => ['name' => 'name', 'url' => '#'],
             ]);
 
             ?>
