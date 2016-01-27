@@ -821,12 +821,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-nestable.git",
-                "reference": "0339e4edf2826045fbb6977a199d41d2453815c0"
+                "reference": "f11645debacd986923bda9d39a4f7a738b6d6586"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-nestable/zipball/0339e4edf2826045fbb6977a199d41d2453815c0",
-                "reference": "0339e4edf2826045fbb6977a199d41d2453815c0",
+                "url": "https://api.github.com/repos/sibds/yii2-nestable/zipball/f11645debacd986923bda9d39a4f7a738b6d6586",
+                "reference": "f11645debacd986923bda9d39a4f7a738b6d6586",
                 "shasum": ""
             },
             "require": {
@@ -855,7 +855,7 @@
                 "nestable",
                 "yii2"
             ],
-            "time": "2016-01-27 12:17:14"
+            "time": "2016-01-27 19:16:33"
         },
         {
             "name": "sibds/yii2-trash-behavior",

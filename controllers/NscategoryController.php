@@ -17,6 +17,10 @@ class NscategoryController extends \yii\web\Controller
         ];
     }
 
+    public function actionUpdate($id){
+        return $this->render('index', ['model'=>Nscategory::findOne(['id'=>$id])]);
+    }
+
     public function actionIndex()
     {
         $model = new Nscategory();

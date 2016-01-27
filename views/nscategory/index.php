@@ -34,7 +34,6 @@ $this->params['breadcrumbs'][] = $this->title;
             echo sibds\widgets\Nestable::widget([
                 'autoQuery' => \app\models\Nscategory::find(),
                 'rootable' => false,
-                'columns' => ['name' => 'name', 'url' => '#'],
             ]);
 
             ?>
