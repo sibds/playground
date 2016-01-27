@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "ee5bec64a203fbe88a9816ed95ba375a",
-    "content-hash": "a3836f09022c46f0de7ad62f7e2d9927",
+    "hash": "11a1a30bb3a7519ccd33f192df90ed6b",
+    "content-hash": "63fa9eb9d0456b602e022792634bc194",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -617,6 +617,54 @@
             "time": "2016-01-18 16:23:05"
         },
         {
+            "name": "sibds/yii2-activerecord",
+            "version": "v0.2.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sibds/yii2-activerecord.git",
+                "reference": "160ed002709dc7ca30e647a875ea162e66d82a9c"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sibds/yii2-activerecord/zipball/160ed002709dc7ca30e647a875ea162e66d82a9c",
+                "reference": "160ed002709dc7ca30e647a875ea162e66d82a9c",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "sibds/yii2-trash-behavior": "*",
+                "yiisoft/yii2": "*"
+            },
+            "require-dev": {
+                "yiisoft/yii2-codeception": "~2.0"
+            },
+            "type": "yii2-components",
+            "autoload": {
+                "psr-4": {
+                    "sibds\\components\\": "",
+                    "sibds\\behaviors\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vadim Mazur",
+                    "email": "mazurva@gmail.com"
+                }
+            ],
+            "description": "Expanding ActiveRecord framework Yii2",
+            "homepage": "https://github.com/sibds/yii2-activerecord",
+            "keywords": [
+                "Active Record",
+                "components",
+                "yii2"
+            ],
+            "time": "2015-06-16 11:35:59"
+        },
+        {
             "name": "sibds/yii2-ckeditor-widget",
             "version": "dev-master",
             "source": {
@@ -773,12 +821,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-nestable.git",
-                "reference": "290e88ebcf38f34abdc8b96efade2bed3eab02de"
+                "reference": "0339e4edf2826045fbb6977a199d41d2453815c0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-nestable/zipball/290e88ebcf38f34abdc8b96efade2bed3eab02de",
-                "reference": "290e88ebcf38f34abdc8b96efade2bed3eab02de",
+                "url": "https://api.github.com/repos/sibds/yii2-nestable/zipball/0339e4edf2826045fbb6977a199d41d2453815c0",
+                "reference": "0339e4edf2826045fbb6977a199d41d2453815c0",
                 "shasum": ""
             },
             "require": {
@@ -807,7 +855,55 @@
                 "nestable",
                 "yii2"
             ],
-            "time": "2016-01-26 19:44:52"
+            "time": "2016-01-27 12:17:14"
+        },
+        {
+            "name": "sibds/yii2-trash-behavior",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sibds/yii2-trash-behavior.git",
+                "reference": "9a3b5733693162240ce1191dbffa367972c4485f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sibds/yii2-trash-behavior/zipball/9a3b5733693162240ce1191dbffa367972c4485f",
+                "reference": "9a3b5733693162240ce1191dbffa367972c4485f",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*"
+            },
+            "require-dev": {
+                "yiisoft/yii2-codeception": "~2.0",
+                "yiisoft/yii2-debug": "2.0.*@dev"
+            },
+            "type": "yii2-behaviors",
+            "autoload": {
+                "psr-4": {
+                    "sibds\\behaviors\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vadim Mazur",
+                    "email": "mazurva@gmail.com"
+                }
+            ],
+            "description": "AR models behavior that allows to mark models as deleted and then restore them.",
+            "homepage": "https://github.com/sibds/yii2-trash-behavior",
+            "keywords": [
+                "Active Record",
+                "Behavior",
+                "trash",
+                "yii2"
+            ],
+            "time": "2015-06-15 19:42:07"
         },
         {
             "name": "slatiusa/yii2-nestable",
@@ -1236,12 +1332,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "de2ed3bbe68254efeff68db60092fc8ed5298055"
+                "reference": "1039b239eaf5ea865ded8e403dc707da6a629474"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/de2ed3bbe68254efeff68db60092fc8ed5298055",
-                "reference": "de2ed3bbe68254efeff68db60092fc8ed5298055",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/1039b239eaf5ea865ded8e403dc707da6a629474",
+                "reference": "1039b239eaf5ea865ded8e403dc707da6a629474",
                 "shasum": ""
             },
             "require": {
@@ -1278,7 +1374,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-01-08 14:16:18"
+            "time": "2016-01-27 08:28:58"
         },
         {
             "name": "phpspec/php-diff",

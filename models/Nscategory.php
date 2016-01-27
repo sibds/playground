@@ -14,7 +14,7 @@ use creocoder\nestedsets\NestedSetsBehavior;
  * @property integer $depth
  * @property string $name
  */
-class Nscategory extends \yii\db\ActiveRecord
+class Nscategory extends \sibds\components\ActiveRecord
 {
     /**
      * @inheritdoc
@@ -32,6 +32,7 @@ class Nscategory extends \yii\db\ActiveRecord
         return [
             [['name'], 'required'],
             [['lft', 'rgt', 'depth'], 'integer'],
+            [['locked', 'removed'], 'boolean'],
             [['name'], 'string'],
         ];
     }

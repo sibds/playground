@@ -24,7 +24,8 @@
         "sibds/yii2-inputfile": "dev-master",
         "sibds/yii2-htmleditor": "dev-master",
         "sibds/yii2-nestable": "dev-master",
-        "kartik-v/yii2-icons": "^1.4"
+        "kartik-v/yii2-icons": "^1.4",
+        "sibds/yii2-activerecord": "^0.2.1"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
