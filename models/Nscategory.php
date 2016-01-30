@@ -78,4 +78,9 @@ class Nscategory extends \sibds\components\ActiveRecord
     {
         return new NscategoryQuery(get_called_class());
     }
+
+    public function duplicate()
+    {
+        parent::duplicate();
+    }
 }
