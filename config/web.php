@@ -7,6 +7,11 @@ $config = [
     'basePath' => dirname(__DIR__),
     'bootstrap' => ['log'],
     'language' => 'ru',
+    'modules' => [
+        'pages' => [
+            'class' => 'app\modules\pages\Module',
+        ],
+    ],
     'controllerMap' => [
         'elfinder' => [
             'class' => 'mihaildev\elfinder\Controller',
