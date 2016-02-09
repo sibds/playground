@@ -19,13 +19,11 @@
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-swiftmailer": "*",
         "sibds/yii2-ckeditor-widget": "dev-master",
-        "mihaildev/yii2-elfinder": "*",
-        "slatiusa/yii2-nestable": "^1.2.0",
         "sibds/yii2-inputfile": "dev-master",
         "sibds/yii2-htmleditor": "dev-master",
         "sibds/yii2-nestable": "dev-master",
         "kartik-v/yii2-icons": "^1.4",
-        "sibds/yii2-activerecord": "^0.2.1"
+        "sibds/yii2-activerecord": "^0.4"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

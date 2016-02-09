@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "11a1a30bb3a7519ccd33f192df90ed6b",
-    "content-hash": "63fa9eb9d0456b602e022792634bc194",
+    "hash": "5ddd97212a0ecc8a6844e4c42825497c",
+    "content-hash": "963ecd37160f4c6d2889554a7438fc2f",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -127,16 +127,16 @@
         },
         {
             "name": "bower-asset/jquery.inputmask",
-            "version": "3.2.6",
+            "version": "3.2.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/RobinHerbots/jquery.inputmask.git",
-                "reference": "7963205cb506bfbf5cc4a3b92d1892e0aa131eb2"
+                "reference": "5a72c563b502b8e05958a524cdfffafe9987be38"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/7963205cb506bfbf5cc4a3b92d1892e0aa131eb2",
-                "reference": "7963205cb506bfbf5cc4a3b92d1892e0aa131eb2",
+                "url": "https://api.github.com/repos/RobinHerbots/jquery.inputmask/zipball/5a72c563b502b8e05958a524cdfffafe9987be38",
+                "reference": "5a72c563b502b8e05958a524cdfffafe9987be38",
                 "shasum": ""
             },
             "require": {
@@ -243,12 +243,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/cebe/markdown.git",
-                "reference": "d7b6f46cd423174c8a86c7f816dea45008dbf454"
+                "reference": "35d47fe727a453a8aa5c6be7e627caad8f16d586"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cebe/markdown/zipball/d7b6f46cd423174c8a86c7f816dea45008dbf454",
-                "reference": "d7b6f46cd423174c8a86c7f816dea45008dbf454",
+                "url": "https://api.github.com/repos/cebe/markdown/zipball/35d47fe727a453a8aa5c6be7e627caad8f16d586",
+                "reference": "35d47fe727a453a8aa5c6be7e627caad8f16d586",
                 "shasum": ""
             },
             "require": {
@@ -295,7 +295,7 @@
                 "markdown",
                 "markdown-extra"
             ],
-            "time": "2016-01-21 11:46:58"
+            "time": "2016-02-06 17:31:49"
         },
         {
             "name": "components/flag-icon-css",
@@ -303,12 +303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lipis/flag-icon-css.git",
-                "reference": "0b2eb7bd2f93f7cf546ee6b6aa44d9f07def6a7d"
+                "reference": "73fc4000e0404f7edbbe7b20c58cd18a505ced44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/0b2eb7bd2f93f7cf546ee6b6aa44d9f07def6a7d",
-                "reference": "0b2eb7bd2f93f7cf546ee6b6aa44d9f07def6a7d",
+                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/73fc4000e0404f7edbbe7b20c58cd18a505ced44",
+                "reference": "73fc4000e0404f7edbbe7b20c58cd18a505ced44",
                 "shasum": ""
             },
             "type": "component",
@@ -333,7 +333,7 @@
                 }
             ],
             "description": "CSS for vector based country flags",
-            "time": "2016-01-25 00:08:29"
+            "time": "2016-02-08 13:22:11"
         },
         {
             "name": "creocoder/yii2-nested-sets",
@@ -429,12 +429,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/FortAwesome/Font-Awesome.git",
-                "reference": "8333f68527f8b7ac08e755cc3b40321953253fe2"
+                "reference": "6a71f4e15ec32dfc050b31ea045452449d1a1c8e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/8333f68527f8b7ac08e755cc3b40321953253fe2",
-                "reference": "8333f68527f8b7ac08e755cc3b40321953253fe2",
+                "url": "https://api.github.com/repos/FortAwesome/Font-Awesome/zipball/6a71f4e15ec32dfc050b31ea045452449d1a1c8e",
+                "reference": "6a71f4e15ec32dfc050b31ea045452449d1a1c8e",
                 "shasum": ""
             },
             "require-dev": {
@@ -469,7 +469,7 @@
                 "font",
                 "icon"
             ],
-            "time": "2016-01-18 16:11:23"
+            "time": "2016-02-08 19:30:54"
         },
         {
             "name": "kartik-v/yii2-icons",
@@ -618,21 +618,21 @@
         },
         {
             "name": "sibds/yii2-activerecord",
-            "version": "v0.2.1",
+            "version": "v0.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-activerecord.git",
-                "reference": "160ed002709dc7ca30e647a875ea162e66d82a9c"
+                "reference": "e5b9f798d015dd8f9e1f5882cfd6d74d346d535e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-activerecord/zipball/160ed002709dc7ca30e647a875ea162e66d82a9c",
-                "reference": "160ed002709dc7ca30e647a875ea162e66d82a9c",
+                "url": "https://api.github.com/repos/sibds/yii2-activerecord/zipball/e5b9f798d015dd8f9e1f5882cfd6d74d346d535e",
+                "reference": "e5b9f798d015dd8f9e1f5882cfd6d74d346d535e",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.4.0",
-                "sibds/yii2-trash-behavior": "*",
+                "sibds/yii2-trash-behavior": "dev-master",
                 "yiisoft/yii2": "*"
             },
             "require-dev": {
@@ -662,7 +662,7 @@
                 "components",
                 "yii2"
             ],
-            "time": "2015-06-16 11:35:59"
+            "time": "2016-02-05 09:13:42"
         },
         {
             "name": "sibds/yii2-ckeditor-widget",
@@ -821,12 +821,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-nestable.git",
-                "reference": "f11645debacd986923bda9d39a4f7a738b6d6586"
+                "reference": "2957828f2bd9bcaffd9e8c2cd661d0dc9d280fac"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-nestable/zipball/f11645debacd986923bda9d39a4f7a738b6d6586",
-                "reference": "f11645debacd986923bda9d39a4f7a738b6d6586",
+                "url": "https://api.github.com/repos/sibds/yii2-nestable/zipball/2957828f2bd9bcaffd9e8c2cd661d0dc9d280fac",
+                "reference": "2957828f2bd9bcaffd9e8c2cd661d0dc9d280fac",
                 "shasum": ""
             },
             "require": {
@@ -855,7 +855,7 @@
                 "nestable",
                 "yii2"
             ],
-            "time": "2016-01-27 19:16:33"
+            "time": "2016-02-09 14:28:50"
         },
         {
             "name": "sibds/yii2-trash-behavior",
@@ -1012,12 +1012,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "c1c502ff2b792fac5470356373e243b77d2a36c7"
+                "reference": "7ccbfdf4cfb0ce025e27455dc3e516af23eb2800"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/c1c502ff2b792fac5470356373e243b77d2a36c7",
-                "reference": "c1c502ff2b792fac5470356373e243b77d2a36c7",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7ccbfdf4cfb0ce025e27455dc3e516af23eb2800",
+                "reference": "7ccbfdf4cfb0ce025e27455dc3e516af23eb2800",
                 "shasum": ""
             },
             "require": {
@@ -1098,7 +1098,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-01-26 17:20:14"
+            "time": "2016-01-28 20:15:10"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -1156,12 +1156,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-composer.git",
-                "reference": "574dcb1d101ae55be230e0c00a2428af6ec4c5c1"
+                "reference": "d33d1046a5951f2f7823fe343f28ddc58b3421a4"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/574dcb1d101ae55be230e0c00a2428af6ec4c5c1",
-                "reference": "574dcb1d101ae55be230e0c00a2428af6ec4c5c1",
+                "url": "https://api.github.com/repos/yiisoft/yii2-composer/zipball/d33d1046a5951f2f7823fe343f28ddc58b3421a4",
+                "reference": "d33d1046a5951f2f7823fe343f28ddc58b3421a4",
                 "shasum": ""
             },
             "require": {
@@ -1195,7 +1195,7 @@
                 "extension installer",
                 "yii2"
             ],
-            "time": "2015-12-01 20:06:03"
+            "time": "2016-02-06 01:03:32"
         },
         {
             "name": "yiisoft/yii2-jui",
@@ -1332,12 +1332,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "1039b239eaf5ea865ded8e403dc707da6a629474"
+                "reference": "d63b5813b4684d4ec6880537f1f93c4a47a37462"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/1039b239eaf5ea865ded8e403dc707da6a629474",
-                "reference": "1039b239eaf5ea865ded8e403dc707da6a629474",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/d63b5813b4684d4ec6880537f1f93c4a47a37462",
+                "reference": "d63b5813b4684d4ec6880537f1f93c4a47a37462",
                 "shasum": ""
             },
             "require": {
@@ -1374,7 +1374,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-01-27 08:28:58"
+            "time": "2016-02-09 13:22:10"
         },
         {
             "name": "phpspec/php-diff",
@@ -1555,12 +1555,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-gii.git",
-                "reference": "d1a58d8c64f9075960665dc5347f5906ecb063cf"
+                "reference": "bb0eba84639a99bff6c8bc9e803bd8ac3ab66297"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/d1a58d8c64f9075960665dc5347f5906ecb063cf",
-                "reference": "d1a58d8c64f9075960665dc5347f5906ecb063cf",
+                "url": "https://api.github.com/repos/yiisoft/yii2-gii/zipball/bb0eba84639a99bff6c8bc9e803bd8ac3ab66297",
+                "reference": "bb0eba84639a99bff6c8bc9e803bd8ac3ab66297",
                 "shasum": ""
             },
             "require": {
@@ -1600,7 +1600,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2016-01-15 17:12:14"
+            "time": "2016-02-02 07:11:51"
         }
     ],
     "aliases": [],
