@@ -34,13 +34,19 @@ AppAsset::register($this);
         ],
     ]);
     echo Nav::widget([
+        'activateParents' => true,
         'options' => ['class' => 'navbar-nav navbar-right'],
         'items' => [
             ['label' => 'Home', 'url' => ['/site/index']],
             ['label' => 'About', 'url' => ['/site/about']],
             ['label' => 'Contact', 'url' => ['/site/contact']],
-            ['label' => 'Menu editor', 'url' => ['/site/nseditor']],
-            ['label' => 'Category editor', 'url' => ['/nscategory/index']],
+            ['label' => 'Menu/Category', 'items' => [
+                ['label' => 'Menu editor', 'url' => ['/site/nseditor']],
+                ['label' => 'Category editor', 'url' => ['/nscategory/index']],
+            ]],
+            ['label' => 'Modules', 'items' => [
+                ['label' => 'Pages', 'url' => ['/pages/pages/index']],
+            ]],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]
             ) : (
