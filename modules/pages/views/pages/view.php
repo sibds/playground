@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\widgets\DetailView;
 
 /* @var $this yii\web\View */
-/* @var $model app\pages\models\Pages */
+/* @var $model app\modules\pages\models\Pages */
 
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Pages', 'url' => ['index']];
@@ -37,6 +37,7 @@ $this->params['breadcrumbs'][] = $this->title;
             'updated_at',
             'updated_by',
             'removed',
+            'status',
             'locked',
         ],
     ]) ?>

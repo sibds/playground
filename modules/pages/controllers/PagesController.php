@@ -56,7 +56,23 @@ class PagesController extends Controller
         ]);
     }
 
-  
+    /**
+     * Creates a new Pages model.
+     * If creation is successful, the browser will be redirected to the 'view' page.
+     * @return mixed
+     */
+    public function actionCreate()
+    {
+        $model = new Pages();
+
+        if ($model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['view', 'id' => $model->id]);
+        } else {
+            return $this->render('create', [
+                'model' => $model,
+            ]);
+        }
+    }
 
     /**
      * Updates an existing Pages model.
@@ -64,15 +80,10 @@ class PagesController extends Controller
      * @param integer $id
      * @return mixed
      */
-    public function actionUpdate($id=null)
+    public function actionUpdate($id)
     {
-        if(is_null($id))
-            $model = new Pages();
-        else
-            $model = $this->findModel($id);
-        
+        $model = $this->findModel($id);
 
-        
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
         } else {

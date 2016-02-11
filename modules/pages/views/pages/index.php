@@ -2,9 +2,9 @@
 
 use yii\helpers\Html;
 use yii\grid\GridView;
-
+use yii\widgets\Pjax;
 /* @var $this yii\web\View */
-/* @var $searchModel app\pages\models\PagesSearch */
+/* @var $searchModel app\modules\pages\models\PagesSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Pages';
@@ -18,7 +18,7 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>
         <?= Html::a('Create Pages', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
-    <?= GridView::widget([
+<?php Pjax::begin(); ?>    <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
         'columns' => [
@@ -27,15 +27,16 @@ $this->params['breadcrumbs'][] = $this->title;
             'id',
             'name:ntext',
             'url:ntext',
-            'content:ntext',
+            // 'content:ntext',
             'created_at',
             // 'created_by',
-            // 'updated_at',
+            'updated_at',
             // 'updated_by',
             // 'removed',
+            // 'status',
             // 'locked',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
     ]); ?>
-</div>
+<?php Pjax::end(); ?></div>

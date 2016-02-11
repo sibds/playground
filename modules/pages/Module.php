@@ -15,6 +15,11 @@ class Module extends \yii\base\Module
     /**
      * @inheritdoc
      */
+    public $defaultRoute = 'pages/index';
+
+    /**
+     * @inheritdoc
+     */
     public function init()
     {
         parent::init();

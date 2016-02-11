@@ -48,15 +48,15 @@ class Pages extends \sibds\components\ActiveRecord
     {
         return [
             'id' => 'ID',
-            'name' => 'Name',
-            'url' => 'Url',
-            'content' => 'Content',
+            'name' => 'Название',
+            'url' => 'Ссылка (Url)',
+            'content' => 'Содержание',
             'created_at' => 'Created At',
             'created_by' => 'Created By',
             'updated_at' => 'Updated At',
             'updated_by' => 'Updated By',
             'removed' => 'Removed',
-            'locked' => 'Locked',
+            'locked' => 'Заблокированно',
         ];
     }
 }

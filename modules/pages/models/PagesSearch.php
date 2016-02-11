@@ -8,7 +8,7 @@ use yii\data\ActiveDataProvider;
 use app\modules\pages\models\Pages;
 
 /**
- * PagesSearch represents the model behind the search form about `app\pages\models\Pages`.
+ * PagesSearch represents the model behind the search form about `app\modules\pages\models\Pages`.
  */
 class PagesSearch extends Pages
 {
@@ -18,7 +18,7 @@ class PagesSearch extends Pages
     public function rules()
     {
         return [
-            [['id', 'created_at', 'created_by', 'updated_at', 'updated_by', 'removed', 'locked'], 'integer'],
+            [['id', 'created_at', 'created_by', 'updated_at', 'updated_by', 'removed', 'status', 'locked'], 'integer'],
             [['name', 'url', 'content'], 'safe'],
         ];
     }
@@ -65,6 +65,7 @@ class PagesSearch extends Pages
             'updated_at' => $this->updated_at,
             'updated_by' => $this->updated_by,
             'removed' => $this->removed,
+            'status' => $this->status,
             'locked' => $this->locked,
         ]);
 

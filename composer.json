@@ -23,7 +23,8 @@
         "sibds/yii2-htmleditor": "dev-master",
         "sibds/yii2-nestable": "dev-master",
         "kartik-v/yii2-icons": "^1.4",
-        "sibds/yii2-activerecord": "^0.4"
+        "sibds/yii2-activerecord": "^0.4",
+        "sibds/yii2-synctranslit": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
@@ -39,6 +40,12 @@
             "yii\\composer\\Installer::postCreateProject"
         ]
     },
+    "repositories":[
+        {
+            "type": "git",
+            "url": "file:///home/vadim/PhpstormProjects/playground/runtime/tmp-extensions/yii2-synctranslit"
+        }
+    ],
     "extra": {
         "yii\\composer\\Installer::postCreateProject": {
             "setPermission": [
