@@ -66,8 +66,8 @@ $this->params['breadcrumbs'][] = $this->title;
         'hover' => true,
         'showPageSummary' => false                                                                                                                                                                                                                                                                                                          ,
         'panel' => [
-            'type' => GridView::TYPE_PRIMARY,
-            'heading' => $this->title,
+            //'type' => GridView::TYPE_PRIMARY,
+            'heading' => false,//$this->title,
         ],
         'persistResize' => false,
         //'exportConfig' => ['HTML', 'CSV', 'Text', 'Excel', 'PDF', 'JSON'],
