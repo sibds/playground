@@ -1,8 +1,10 @@
 <?php
 
 use yii\helpers\Html;
-use yii\grid\GridView;
+//use yii\grid\GridView;
+use kartik\grid\GridView;
 use yii\widgets\Pjax;
+
 /* @var $this yii\web\View */
 /* @var $searchModel app\modules\pages\models\PagesSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
@@ -18,10 +20,13 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>
         <?= Html::a('Create Pages', ['create'], ['class' => 'btn btn-success']) ?>
     </p>
-    
-<?php Pjax::begin(); ?>    <?= GridView::widget([
+
+    <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
+        'containerOptions' => ['style' => 'overflow: auto'], // only set when $responsive = false
+        'headerRowOptions' => ['class' => 'kartik-sheet-style'],
+        'filterRowOptions' => ['class' => 'kartik-sheet-style'],
         'columns' => [
             //['class' => 'yii\grid\SerialColumn'],
 
@@ -37,7 +42,34 @@ $this->params['breadcrumbs'][] = $this->title;
             // 'status',
             // 'locked',
 
-            ['class' => 'yii\grid\ActionColumn'],
+            ['class' => 'kartik\grid\ActionColumn'],
         ],
+        'pjax' => true, // pjax is set to always true for this demo
+        // set your toolbar
+        'toolbar' => [
+            ['content' =>
+                Html::a('<i class="glyphicon glyphicon-plus"></i>', ['create'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-success']) . ' ' .
+                Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['grid-demo'], ['data-pjax' => 0, 'class' => 'btn btn-default', 'title' => 'Reset Grid'])
+            ],
+            '{export}',
+            '{toggleData}',
+        ],
+        // set export properties
+        'export' => [
+            'fontAwesome' => true
+        ],
+        // parameters from the demo form
+        'bordered' => true,
+        'striped' => false,
+        'condensed' => true,
+        'responsive' => true,
+        'hover' => true,
+        'showPageSummary' => false                                                                                                                                                                                                                                                                                                          ,
+        'panel' => [
+            'type' => GridView::TYPE_PRIMARY,
+            'heading' => $this->title,
+        ],
+        'persistResize' => false,
+        //'exportConfig' => ['HTML', 'CSV', 'Text', 'Excel', 'PDF', 'JSON'],
     ]); ?>
-<?php Pjax::end(); ?></div>
+</div>
