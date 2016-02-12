@@ -24,7 +24,8 @@
         "sibds/yii2-nestable": "dev-master",
         "kartik-v/yii2-icons": "^1.4",
         "sibds/yii2-activerecord": "^0.4",
-        "sibds/yii2-synctranslit": "dev-master"
+        "sibds/yii2-synctranslit": "dev-master",
+        "kartik-v/yii2-grid": "@dev"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",
