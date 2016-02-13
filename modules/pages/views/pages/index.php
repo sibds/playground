@@ -29,6 +29,7 @@ $this->params['breadcrumbs'][] = $this->title;
             [
                 'class' => 'sibds\grid\UrlColumn',
                 'attribute'=>'id',
+                'width' => '50px',
             ],
             [
                 'class' => 'sibds\grid\UrlColumn',

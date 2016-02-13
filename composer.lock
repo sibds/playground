@@ -2059,12 +2059,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-gridhelper.git",
-                "reference": "63103cf0de20bf36a4fec4a936fd8a95b80c5de1"
+                "reference": "cb9c4f490d31ce81e3ba04dcfbd8fa57cdd97a9d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-gridhelper/zipball/63103cf0de20bf36a4fec4a936fd8a95b80c5de1",
-                "reference": "63103cf0de20bf36a4fec4a936fd8a95b80c5de1",
+                "url": "https://api.github.com/repos/sibds/yii2-gridhelper/zipball/cb9c4f490d31ce81e3ba04dcfbd8fa57cdd97a9d",
+                "reference": "cb9c4f490d31ce81e3ba04dcfbd8fa57cdd97a9d",
                 "shasum": ""
             },
             "require": {
@@ -2093,7 +2093,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-02-13 14:20:50"
+            "time": "2016-02-13 20:18:07"
         },
         {
             "name": "sibds/yii2-htmleditor",
