@@ -26,7 +26,11 @@
         "sibds/yii2-activerecord": "^0.4",
         "sibds/yii2-synctranslit": "dev-master",
         "kartik-v/yii2-grid": "@dev",
-        "kartik-v/yii2-mpdf": "@dev"
+        "kartik-v/yii2-mpdf": "@dev",
+        "kartik-v/yii2-widgets": "@dev",
+        "kartik-v/yii2-date-range": "*",
+        "sibds/yii2-gridhelper": "dev-master",
+        "sibds/yii2-formfooter": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

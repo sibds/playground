@@ -17,10 +17,6 @@ $this->params['breadcrumbs'][] = $this->title;
     <h1><?= Html::encode($this->title) ?></h1>
     <?php // echo $this->render('_search', ['model' => $searchModel]); ?>
 
-    <p>
-        <?= Html::a('Create Pages', ['create'], ['class' => 'btn btn-success']) ?>
-    </p>
-
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
@@ -30,26 +26,36 @@ $this->params['breadcrumbs'][] = $this->title;
         'columns' => [
             //['class' => 'yii\grid\SerialColumn'],
 
-            'id',
-            'name:ntext',
-            'url:ntext',
-            // 'content:ntext',
-            'created_at',
-            // 'created_by',
-            'updated_at',
-            // 'updated_by',
-            // 'removed',
-            // 'status',
-            // 'locked',
+            [
+                'class' => 'sibds\grid\UrlColumn',
+                'attribute'=>'id',
+            ],
+            [
+                'class' => 'sibds\grid\UrlColumn',
+                'attribute'=>'name',
+                'showLock' => true,
+            ],
+            [
+                'class' => 'sibds\grid\UrlColumn',
+                'attribute'=>'url',
+            ],
+            [
+                'attribute'=>'created_at',
+                'format'=>['date', 'dd.MM.YYYY HH:mm'],
+            ],
+            [
+                'attribute'=>'updated_at',
+                'format'=>['date', 'dd.MM.YYYY HH:mm'],
+            ],
 
-            ['class' => 'kartik\grid\ActionColumn'],
+            ['class' => 'sibds\grid\ActionColumn'],
         ],
         'pjax' => true, // pjax is set to always true for this demo
         // set your toolbar
         'toolbar' => [
             ['content' =>
                 Html::a('<i class="glyphicon glyphicon-plus"></i>', ['create'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-success']) . ' ' .
-                Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['grid-demo'], ['data-pjax' => 0, 'class' => 'btn btn-default', 'title' => 'Reset Grid'])
+                Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['index'], ['data-pjax' => 0, 'class' => 'btn btn-default', 'title' => 'Reset Grid'])
             ],
             '{export}',
             '{toggleData}',
