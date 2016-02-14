@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "f456fc5859800fb9d4179c0632292ab0",
-    "content-hash": "27b766454c9041373b807c77665e1250",
+    "hash": "5c5b7bb0a6633b75b1c3bb46f4fe4123",
+    "content-hash": "1f45e823a217f381d7a979d5df8bb12d",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -337,24 +337,20 @@
         },
         {
             "name": "creocoder/yii2-nested-sets",
-            "version": "dev-master",
+            "version": "0.9.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/creocoder/yii2-nested-sets.git",
-                "reference": "ac447e98b644eed56bbbbcb695d7ecddc23af90e"
+                "reference": "cb8635a459b6246e5a144f096b992dcc30cf9954"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/creocoder/yii2-nested-sets/zipball/ac447e98b644eed56bbbbcb695d7ecddc23af90e",
-                "reference": "ac447e98b644eed56bbbbcb695d7ecddc23af90e",
+                "url": "https://api.github.com/repos/creocoder/yii2-nested-sets/zipball/cb8635a459b6246e5a144f096b992dcc30cf9954",
+                "reference": "cb8635a459b6246e5a144f096b992dcc30cf9954",
                 "shasum": ""
             },
             "require": {
-                "yiisoft/yii2": "~2.0.0"
-            },
-            "require-dev": {
-                "phpunit/dbunit": "~1.0",
-                "phpunit/phpunit": "~4.0"
+                "yiisoft/yii2": "*"
             },
             "type": "yii2-extension",
             "autoload": {
@@ -377,7 +373,7 @@
                 "nested sets",
                 "yii2"
             ],
-            "time": "2015-02-25 21:37:22"
+            "time": "2015-01-27 10:53:51"
         },
         {
             "name": "ezyang/htmlpurifier",
@@ -893,6 +889,58 @@
                 "yii2"
             ],
             "time": "2015-12-03 14:15:23"
+        },
+        {
+            "name": "kartik-v/yii2-tree-manager",
+            "version": "v1.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/kartik-v/yii2-tree-manager.git",
+                "reference": "c0ac4bd5c3f7a7baecf335e03e36a76ddd401002"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/kartik-v/yii2-tree-manager/zipball/c0ac4bd5c3f7a7baecf335e03e36a76ddd401002",
+                "reference": "c0ac4bd5c3f7a7baecf335e03e36a76ddd401002",
+                "shasum": ""
+            },
+            "require": {
+                "creocoder/yii2-nested-sets": "*",
+                "kartik-v/yii2-krajee-base": "*",
+                "kartik-v/yii2-widget-activeform": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "kartik\\tree\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Kartik Visweswaran",
+                    "email": "kartikv2@gmail.com",
+                    "homepage": "http://www.krajee.com/"
+                }
+            ],
+            "description": "An enhanced tree management module with tree node selection and manipulation using nested sets.",
+            "homepage": "https://github.com/kartik-v/yii2-tree-manager",
+            "keywords": [
+                "ajax",
+                "bootstrap",
+                "hierarchy",
+                "jquery",
+                "krajee",
+                "nested",
+                "nestedset",
+                "set",
+                "tree",
+                "treeview"
+            ],
+            "time": "2015-05-22 13:06:31"
         },
         {
             "name": "kartik-v/yii2-widget-activeform",
@@ -1902,19 +1950,20 @@
         },
         {
             "name": "sibds/yii2-activerecord",
-            "version": "v0.4.2",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-activerecord.git",
-                "reference": "e5b9f798d015dd8f9e1f5882cfd6d74d346d535e"
+                "reference": "2296f0c4a847b22fd54c3478ab1c4c79eb1fa665"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-activerecord/zipball/e5b9f798d015dd8f9e1f5882cfd6d74d346d535e",
-                "reference": "e5b9f798d015dd8f9e1f5882cfd6d74d346d535e",
+                "url": "https://api.github.com/repos/sibds/yii2-activerecord/zipball/2296f0c4a847b22fd54c3478ab1c4c79eb1fa665",
+                "reference": "2296f0c4a847b22fd54c3478ab1c4c79eb1fa665",
                 "shasum": ""
             },
             "require": {
+                "creocoder/yii2-nested-sets": "0.9.*",
                 "php": ">=5.4.0",
                 "sibds/yii2-trash-behavior": "dev-master",
                 "yiisoft/yii2": "*"
@@ -1946,7 +1995,7 @@
                 "components",
                 "yii2"
             ],
-            "time": "2016-02-05 09:13:42"
+            "time": "2016-02-14 16:57:06"
         },
         {
             "name": "sibds/yii2-ckeditor-widget",
@@ -2423,12 +2472,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "8c3f3fce48649eebcb5739c797616bd49d4709e7"
+                "reference": "91891865054fa60982c85cb3926414fd84c60f50"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/8c3f3fce48649eebcb5739c797616bd49d4709e7",
-                "reference": "8c3f3fce48649eebcb5739c797616bd49d4709e7",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/91891865054fa60982c85cb3926414fd84c60f50",
+                "reference": "91891865054fa60982c85cb3926414fd84c60f50",
                 "shasum": ""
             },
             "require": {
@@ -2509,7 +2558,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-02-13 22:04:18"
+            "time": "2016-02-14 14:51:30"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -3021,12 +3070,14 @@
         "sibds/yii2-inputfile": 20,
         "sibds/yii2-htmleditor": 20,
         "sibds/yii2-nestable": 20,
+        "sibds/yii2-activerecord": 20,
         "sibds/yii2-synctranslit": 20,
         "kartik-v/yii2-grid": 20,
         "kartik-v/yii2-mpdf": 20,
         "kartik-v/yii2-widgets": 20,
         "sibds/yii2-gridhelper": 20,
-        "sibds/yii2-formfooter": 20
+        "sibds/yii2-formfooter": 20,
+        "kartik-v/yii2-tree-manager": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

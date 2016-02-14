@@ -11,6 +11,9 @@ $config = [
         'pages' => [
             'class' => 'app\modules\pages\Module',
         ],
+        'news' => [
+            'class' => 'app\modules\news\Module',
+        ],
         'gridview' =>  [
             'class' => '\kartik\grid\Module',
             // enter optional module parameters below - only if you need to
@@ -22,7 +25,7 @@ $config = [
                 'basePath' => '@kvgrid/messages',
                 'forceTranslation' => true
             ],
-        ],
+        ]
     ],
     'controllerMap' => [
         'elfinder' => [

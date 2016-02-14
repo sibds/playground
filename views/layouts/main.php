@@ -46,6 +46,7 @@ AppAsset::register($this);
             ]],
             ['label' => 'Modules', 'items' => [
                 ['label' => 'Pages', 'url' => ['/pages/pages/list']],
+                ['label' => 'News', 'url' => ['/news/news/list']],
             ]],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]

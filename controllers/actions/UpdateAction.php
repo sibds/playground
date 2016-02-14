@@ -1,6 +1,7 @@
 <?php
 
 namespace app\controllers\actions;
+use creocoder\nestedsets\NestedSetsBehavior;
 
 /**
  * Created by PhpStorm.
@@ -14,7 +15,12 @@ class UpdateAction extends BaseAction
     {
         $model = $this->getModel();
 
-        if ($model->load(\Yii::$app->request->post()) && $model->save()) {
+        if ($model->load(\Yii::$app->request->post()) && $model->validate()) {
+            if($this->testBehavior(new NestedSetsBehavior()))
+                $model->makeRoot();
+            else
+                $model->save();
+
             if (isset($_GET['close']))
                 return $this->redirect();
 
