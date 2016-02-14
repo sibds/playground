@@ -16,6 +16,16 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'url')->widget(\sibds\widgets\translitInput::className(), ['fromField'=>'name']) ?>
 
+    <?= $form->field($model, 'layout')->widget(\kartik\select2\Select2::className(), [
+        'data'=>Yii::$app->controller->getLayouts(),
+        'options' => ['placeholder' => 'Значение по умолчанию'],
+        'addon' => [
+            'prepend' => [
+                'content' => \yii\bootstrap\Html::icon('open-file')
+            ]
+        ]
+    ]) ?>
+
     <?= $form->field($model, 'content')->widget(\sibds\widgets\CKEditor::className(), ['options' => ['rows' => 6],]) ?>
 
     <?= $form->field($model, 'locked')->checkbox() ?>

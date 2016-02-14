@@ -15,7 +15,7 @@ class Module extends \yii\base\Module
     /**
      * @inheritdoc
      */
-    public $defaultRoute = 'pages/index';
+    public $defaultRoute = 'pages/list';
 
     /**
      * @inheritdoc

@@ -36,9 +36,10 @@ class Pages extends \sibds\components\ActiveRecord
     {
         return [
             [['name', 'url', 'content'], 'required'],
-            [['name', 'url', 'content'], 'string'],
-            [['created_at', 'created_by', 'updated_at', 'updated_by', 'removed', 'locked'], 'safe'],
-            [['created_at', 'created_by', 'updated_at', 'updated_by', 'removed', 'locked'], 'integer'],
+            [['name', 'url', 'content', 'layout'], 'string'],
+            [['removed', 'locked'], 'boolean'],
+            //[['created_at', 'created_by', 'updated_at', 'updated_by', 'removed', 'locked'], 'safe'],
+            [['created_at', 'created_by', 'updated_at', 'updated_by'], 'integer'],
         ];
     }
 
@@ -51,6 +52,7 @@ class Pages extends \sibds\components\ActiveRecord
             'id' => 'ID',
             'name' => 'Название',
             'url' => 'Ссылка (Url)',
+            'layout' => 'Слой',
             'content' => 'Содержание',
             'created_at' => 'Created At',
             'created_by' => 'Created By',

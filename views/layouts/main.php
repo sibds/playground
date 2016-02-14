@@ -45,7 +45,7 @@ AppAsset::register($this);
                 ['label' => 'Category editor', 'url' => ['/nscategory/index']],
             ]],
             ['label' => 'Modules', 'items' => [
-                ['label' => 'Pages', 'url' => ['/pages/pages/index']],
+                ['label' => 'Pages', 'url' => ['/pages/pages/list']],
             ]],
             Yii::$app->user->isGuest ? (
                 ['label' => 'Login', 'url' => ['/site/login']]

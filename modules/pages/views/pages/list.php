@@ -30,6 +30,7 @@ $this->params['breadcrumbs'][] = $this->title;
                 'class' => 'sibds\grid\UrlColumn',
                 'attribute'=>'id',
                 'width' => '50px',
+                'hAlign' => 'center',
             ],
             [
                 'class' => 'sibds\grid\UrlColumn',
@@ -55,7 +56,7 @@ $this->params['breadcrumbs'][] = $this->title;
         // set your toolbar
         'toolbar' => [
             ['content' =>
-                Html::a('<i class="glyphicon glyphicon-plus"></i>', ['create'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-success']) . ' ' .
+                Html::a('<i class="glyphicon glyphicon-plus"></i>', ['update'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-success']) . ' ' .
                 Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['index'], ['data-pjax' => 0, 'class' => 'btn btn-default', 'title' => 'Reset Grid'])
             ],
             '{export}',
@@ -77,6 +78,5 @@ $this->params['breadcrumbs'][] = $this->title;
             'heading' => false,//$this->title,
         ],
         'persistResize' => false,
-        //'exportConfig' => ['HTML', 'CSV', 'Text', 'Excel', 'PDF', 'JSON'],
     ]); ?>
 </div>
