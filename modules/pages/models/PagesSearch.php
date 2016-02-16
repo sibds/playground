@@ -6,6 +6,7 @@ use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
 use app\modules\pages\models\Pages;
+use yii\helpers\ArrayHelper;
 
 /**
  * PagesSearch represents the model behind the search form about `app\modules\pages\models\Pages`.
@@ -41,6 +42,8 @@ class PagesSearch extends Pages
      */
     public function search($params)
     {
+        $model = new Pages();
+
         $query = Pages::find();
 
         // add conditions that should always apply here

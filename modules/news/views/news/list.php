@@ -53,7 +53,8 @@ $this->params['breadcrumbs'][] = $this->title;
         // set your toolbar
         'toolbar' => [
             ['content' =>
-                Html::a('<i class="glyphicon glyphicon-plus"></i>', ['update'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-success']) . ' ' .
+                Html::a('<i class="glyphicon glyphicon-plus"></i> Добавить', ['update'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-success']) . ' ' .
+                Html::a('<i class="glyphicon glyphicon-list"></i> Категории', ['news-category/list'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-default']) . ' ' .
                 Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['index'], ['data-pjax' => 0, 'class' => 'btn btn-default', 'title' => 'Reset Grid'])
             ],
             '{export}',

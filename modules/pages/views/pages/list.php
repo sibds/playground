@@ -57,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
         'toolbar' => [
             ['content' =>
                 Html::a('<i class="glyphicon glyphicon-plus"></i>', ['update'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-success']) . ' ' .
-                Html::a('<i class="glyphicon glyphicon-repeat"></i>', ['index'], ['data-pjax' => 0, 'class' => 'btn btn-default', 'title' => 'Reset Grid'])
+                Html::a('<i class="glyphicon glyphicon-repeat"></i>', [\Yii::$app->controller->defaultAction], ['data-pjax' => 0, 'class' => 'btn btn-default', 'title' => 'Reset Grid'])
             ],
             '{export}',
             '{toggleData}',

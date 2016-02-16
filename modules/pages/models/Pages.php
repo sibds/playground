@@ -20,7 +20,7 @@ use Yii;
  */
 class Pages extends \sibds\components\ActiveRecord
 {
-    public static $BEFORE_QUERY = ['removed' => 0];
+    public static $BEFORE_QUERY = [];
     /**
      * @inheritdoc
      */

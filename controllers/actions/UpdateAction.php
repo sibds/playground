@@ -16,8 +16,19 @@ class UpdateAction extends BaseAction
         $model = $this->getModel();
 
         if ($model->load(\Yii::$app->request->post()) && $model->validate()) {
-            if($this->testBehavior(new NestedSetsBehavior()))
-                $model->makeRoot();
+            if(($behavior = $this->testBehavior(new NestedSetsBehavior())) !== false){
+                if($model->hasAttribute($behavior->treeAttribute)){
+                    $model->makeRoot();
+                }else{
+                    $modelName = $this->getModelName;
+                    if($modelName::find()->roots()->count()<=0){
+                        $root=new $modelName(['name'=>'Основная']);
+                        $root->makeRoot();
+                    }
+                    $root = $modelName::find()->roots()->one();
+                    $model->appendTo($root);
+                }
+            }
             else
                 $model->save();
 
