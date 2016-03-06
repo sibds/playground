@@ -2,12 +2,8 @@
 
 namespace app\modules\pages\controllers;
 
-use app\controllers\StandartController;
+use sibds\controllers\StandartController;
 use Yii;
-use app\modules\pages\models\Pages;
-use app\modules\pages\models\PagesSearch;
-use yii\helpers\ArrayHelper;
-use yii\web\NotFoundHttpException;
 
 
 /**

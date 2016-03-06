@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "28b1714e1cb7f89a3099a37b8040c75b",
-    "content-hash": "2cadf6f7550fd646de7d02b224c36a85",
+    "hash": "db7f1bd9d41e82f99925e73d3a3c9fc7",
+    "content-hash": "18d4c5dd0cd9c915d4a02d0e0a7904b3",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -2165,12 +2165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-activerecord.git",
-                "reference": "cc63dc44e2d9bc48b152348d8426b55b07758961"
+                "reference": "5f165957055e56703dd7a7a96a24ead8aa829664"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-activerecord/zipball/cc63dc44e2d9bc48b152348d8426b55b07758961",
-                "reference": "cc63dc44e2d9bc48b152348d8426b55b07758961",
+                "url": "https://api.github.com/repos/sibds/yii2-activerecord/zipball/5f165957055e56703dd7a7a96a24ead8aa829664",
+                "reference": "5f165957055e56703dd7a7a96a24ead8aa829664",
                 "shasum": ""
             },
             "require": {
@@ -2206,7 +2206,7 @@
                 "components",
                 "yii2"
             ],
-            "time": "2016-02-16 11:55:29"
+            "time": "2016-03-06 20:32:23"
         },
         {
             "name": "sibds/yii2-ckeditor-widget",
@@ -2319,12 +2319,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-gridhelper.git",
-                "reference": "cb9c4f490d31ce81e3ba04dcfbd8fa57cdd97a9d"
+                "reference": "6e1fa133325f7248bb46b34a14f15727542bac41"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-gridhelper/zipball/cb9c4f490d31ce81e3ba04dcfbd8fa57cdd97a9d",
-                "reference": "cb9c4f490d31ce81e3ba04dcfbd8fa57cdd97a9d",
+                "url": "https://api.github.com/repos/sibds/yii2-gridhelper/zipball/6e1fa133325f7248bb46b34a14f15727542bac41",
+                "reference": "6e1fa133325f7248bb46b34a14f15727542bac41",
                 "shasum": ""
             },
             "require": {
@@ -2353,7 +2353,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-02-13 20:18:07"
+            "time": "2016-03-06 20:55:09"
         },
         {
             "name": "sibds/yii2-htmleditor",
@@ -2482,6 +2482,48 @@
                 "yii2"
             ],
             "time": "2016-02-09 14:28:50"
+        },
+        {
+            "name": "sibds/yii2-standart-controller",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sibds/yii2-standart-controller.git",
+                "reference": "30e35168f3a0dd29681f11ad1a90a2ed9a43ddae"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sibds/yii2-standart-controller/zipball/30e35168f3a0dd29681f11ad1a90a2ed9a43ddae",
+                "reference": "30e35168f3a0dd29681f11ad1a90a2ed9a43ddae",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sibds\\controllers\\": "",
+                    "sibds\\controllers\\actions\\": "actions/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vadim Mazur",
+                    "email": "mazurva@gmail.com"
+                }
+            ],
+            "description": "Standart Controllers for Backend on Yii2",
+            "keywords": [
+                "controllers",
+                "extension",
+                "yii2"
+            ],
+            "time": "2016-03-06 22:25:39"
         },
         {
             "name": "sibds/yii2-synctranslit",
@@ -3132,12 +3174,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-debug.git",
-                "reference": "e196aa3fe1717ceb8b0027b6a12d7de340a2b7d0"
+                "reference": "a29ed1039604a576329c8d33138d29065d9f98d5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/e196aa3fe1717ceb8b0027b6a12d7de340a2b7d0",
-                "reference": "e196aa3fe1717ceb8b0027b6a12d7de340a2b7d0",
+                "url": "https://api.github.com/repos/yiisoft/yii2-debug/zipball/a29ed1039604a576329c8d33138d29065d9f98d5",
+                "reference": "a29ed1039604a576329c8d33138d29065d9f98d5",
                 "shasum": ""
             },
             "require": {
@@ -3171,7 +3213,7 @@
                 "debugger",
                 "yii2"
             ],
-            "time": "2016-02-25 14:59:15"
+            "time": "2016-03-06 21:22:38"
         },
         {
             "name": "yiisoft/yii2-faker",
@@ -3288,7 +3330,8 @@
         "kartik-v/yii2-widgets": 20,
         "sibds/yii2-gridhelper": 20,
         "sibds/yii2-formfooter": 20,
-        "kartik-v/yii2-tree-manager": 20
+        "kartik-v/yii2-tree-manager": 20,
+        "sibds/yii2-standart-controller": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

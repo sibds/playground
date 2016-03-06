@@ -1,50 +1,14 @@
 <?php
 
 use yii\helpers\Html;
-use kartik\grid\GridView;
+use sibds\grid\GridView;
 /* @var $this yii\web\View */
 /* @var $searchModel app\modules\news\models\NewsSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
-$this->title = 'News';
+$this->title = $this->context->action->id === 'trash' ? 'Trash news' : 'News';
 $this->params['breadcrumbs'][] = $this->title;
 
-//Toolbar
-$toolbar = [
-    '{export}',
-    '{toggleData}',
-];
-
-$basic_toolbar = [
-    ['content' =>
-        Html::a('<i class="glyphicon glyphicon-plus"></i> Добавить', ['update'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-success']) . ' ' .
-        Html::a('<i class="glyphicon glyphicon-repeat"></i> Обновить', ['index'], ['data-pjax' => 0, 'class' => 'btn btn-default', 'title' => 'Reset Grid'])
-    ],
-    [
-        'content' =>
-            Html::a('<i class="glyphicon glyphicon-list"></i> Категории', ['news-category/list'], ['data-pjax' => 0, 'title' => 'Add Pages', 'class' => 'btn btn-default'])
-    ],
-    [
-        'content' =>
-            Html::a(
-                '<i class="glyphicon glyphicon-trash"></i> Корзина',
-                ['trash'],
-                ['data-pjax' => 0, 'title' => 'Removed records', 'class' => 'btn btn-default'])
-    ]
-];
-
-if($this->context->action->id === 'trash'){
-    $basic_toolbar = [
-        [
-            'content' =>
-                Html::a(
-                    '<i class="glyphicon glyphicon-arrow-left"></i> Вернуться к записям',
-                    ['list'],
-                    ['data-pjax' => 0, 'title' => 'List records', 'class' => 'btn btn-default'])
-        ]
-    ];
-}
-$toolbar = \yii\helpers\ArrayHelper::merge($basic_toolbar, $toolbar);
 ?>
 <div class="news-index">
 
@@ -54,9 +18,6 @@ $toolbar = \yii\helpers\ArrayHelper::merge($basic_toolbar, $toolbar);
     <?= GridView::widget([
         'dataProvider' => $dataProvider,
         'filterModel' => $searchModel,
-        'containerOptions' => ['style' => 'overflow: auto'], // only set when $responsive = false
-        'headerRowOptions' => ['class' => 'kartik-sheet-style'],
-        'filterRowOptions' => ['class' => 'kartik-sheet-style'],
         'columns' => [
             //['class' => 'yii\grid\SerialColumn'],
 
@@ -86,24 +47,5 @@ $toolbar = \yii\helpers\ArrayHelper::merge($basic_toolbar, $toolbar);
 
             ['class' => 'sibds\grid\ActionColumn'],
         ],
-        'pjax' => true, // pjax is set to always true for this demo
-        // set your toolbar
-        'toolbar' => $toolbar,
-        // set export properties
-        'export' => [
-            'fontAwesome' => true
-        ],
-        // parameters from the demo form
-        'bordered' => true,
-        'striped' => false,
-        'condensed' => true,
-        'responsive' => true,
-        'hover' => true,
-        'showPageSummary' => false                                                                                                                                                                                                                                                                                                          ,
-        'panel' => [
-            //'type' => GridView::TYPE_PRIMARY,
-            'heading' => false,//$this->title,
-        ],
-        'persistResize' => false,
     ]); ?>
 </div>
