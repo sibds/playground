@@ -70,12 +70,4 @@ class NewsCategory extends ActiveRecord
         ];
     }
 
-    /**
-     * @inheritdoc
-     * @return NstableQuery the active query used by this AR class.
-     */
-    public static function find()
-    {
-        return new NewsCategoryQuery(get_called_class());
-    }
 }

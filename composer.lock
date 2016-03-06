@@ -303,12 +303,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/lipis/flag-icon-css.git",
-                "reference": "bdb54655652ed38c797c235f27c7596f5c954815"
+                "reference": "f13b77e0323a674e6a56ac4284128ff73a39e115"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/bdb54655652ed38c797c235f27c7596f5c954815",
-                "reference": "bdb54655652ed38c797c235f27c7596f5c954815",
+                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/f13b77e0323a674e6a56ac4284128ff73a39e115",
+                "reference": "f13b77e0323a674e6a56ac4284128ff73a39e115",
                 "shasum": ""
             },
             "type": "component",
@@ -333,7 +333,7 @@
                 }
             ],
             "description": "CSS for vector based country flags",
-            "time": "2016-03-05 07:20:29"
+            "time": "2016-03-06 17:05:22"
         },
         {
             "name": "creocoder/yii2-nested-sets",
@@ -377,16 +377,16 @@
         },
         {
             "name": "ezyang/htmlpurifier",
-            "version": "v4.6.0",
+            "version": "v4.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/ezyang/htmlpurifier.git",
-                "reference": "6f389f0f25b90d0b495308efcfa073981177f0fd"
+                "reference": "ae1828d955112356f7677c465f94f7deb7d27a40"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/6f389f0f25b90d0b495308efcfa073981177f0fd",
-                "reference": "6f389f0f25b90d0b495308efcfa073981177f0fd",
+                "url": "https://api.github.com/repos/ezyang/htmlpurifier/zipball/ae1828d955112356f7677c465f94f7deb7d27a40",
+                "reference": "ae1828d955112356f7677c465f94f7deb7d27a40",
                 "shasum": ""
             },
             "require": {
@@ -417,7 +417,7 @@
             "keywords": [
                 "html"
             ],
-            "time": "2013-11-30 08:25:19"
+            "time": "2015-08-05 01:03:42"
         },
         {
             "name": "fortawesome/font-awesome",
@@ -2683,12 +2683,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "ff2e0f3a65d1e44c010e4821db12ce94d13ca888"
+                "reference": "96ca6c7b71f9e93ab6cd31ba49090bdd2c3d5739"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ff2e0f3a65d1e44c010e4821db12ce94d13ca888",
-                "reference": "ff2e0f3a65d1e44c010e4821db12ce94d13ca888",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/96ca6c7b71f9e93ab6cd31ba49090bdd2c3d5739",
+                "reference": "96ca6c7b71f9e93ab6cd31ba49090bdd2c3d5739",
                 "shasum": ""
             },
             "require": {
@@ -2769,7 +2769,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-03-04 13:13:18"
+            "time": "2016-03-06 09:33:50"
         },
         {
             "name": "yiisoft/yii2-bootstrap",

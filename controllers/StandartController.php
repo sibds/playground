@@ -39,6 +39,7 @@ class StandartController extends Controller
     {
         $actions = [
             'list' => ['class' => 'app\controllers\actions\ListAction'],
+            'trash' => ['class' => 'app\controllers\actions\TrashAction'],
             'copy' => ['class' => 'app\controllers\actions\CopyAction'],
             'update' => ['class' => 'app\controllers\actions\UpdateAction'],
             'unlock' => ['class' => 'app\controllers\actions\UnlockAction'],
