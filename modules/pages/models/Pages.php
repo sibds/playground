@@ -5,7 +5,7 @@ namespace app\modules\pages\models;
 use Yii;
 
 /**
- * This is the model class for table "pages".
+ * This is the model class for table "{{%pages}}".
  *
  * @property integer $id
  * @property string $name
@@ -16,17 +16,18 @@ use Yii;
  * @property integer $updated_at
  * @property integer $updated_by
  * @property integer $removed
+ * @property integer $status
  * @property integer $locked
+ * @property string $layout
  */
 class Pages extends \sibds\components\ActiveRecord
 {
-    public static $BEFORE_QUERY = [];
     /**
      * @inheritdoc
      */
     public static function tableName()
     {
-        return 'pages';
+        return '{{%pages}}';
     }
 
     /**
@@ -36,10 +37,9 @@ class Pages extends \sibds\components\ActiveRecord
     {
         return [
             [['name', 'url', 'content'], 'required'],
-            [['name', 'url', 'content', 'layout'], 'string'],
-            [['removed', 'locked'], 'boolean'],
-            //[['created_at', 'created_by', 'updated_at', 'updated_by', 'removed', 'locked'], 'safe'],
-            [['created_at', 'created_by', 'updated_at', 'updated_by'], 'integer'],
+            [['name', 'url', 'content'], 'string'],
+            [['created_by', 'updated_by', 'removed', 'status', 'locked'], 'integer'],
+            [['layout'], 'string', 'max' => 50],
         ];
     }
 

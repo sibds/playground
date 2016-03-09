@@ -95,6 +95,27 @@ if (YII_ENV_DEV) {
     $config['bootstrap'][] = 'gii';
     $config['modules']['gii'] = [
         'class' => 'yii\gii\Module',
+        'generators' => [
+            'SModel' => [
+                'class' => 'app\gii\model\Generator',
+                'templates' => [
+                    'my' => '@app/gii/model/default',
+                ]
+            ],
+            'SModule' => [
+                'class' => 'app\gii\module\Generator',
+                'templates' => [
+                    'my' => '@app/gii/module/default',
+                ]
+            ],
+            'SCrud' => [
+                'class' => 'app\gii\crud\Generator',
+                'templates' => [
+                    'my' => '@app/gii/crud/default',
+                ]
+            ],
+
+        ],
     ];
 }
 
