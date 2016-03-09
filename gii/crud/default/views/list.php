@@ -13,7 +13,7 @@ echo "<?php\n";
 ?>
 
 use yii\helpers\Html;
-use <?= $generator->indexWidgetType === 'grid' ? "sibds\\grid\\GridView" : "yii\\widgets\\ListView" ?>;
+use <?= !$generator->testNestedSet() ? "sibds\\grid\\GridView" : "sibds\\widgets\\Nestable" ?>;
 <?= $generator->enablePjax ? 'use yii\widgets\Pjax;' : '' ?>
 
 /* @var $this yii\web\View */
@@ -33,8 +33,8 @@ $this->params['breadcrumbs'][] = $this->title;
     <p>
         <?= "<?= " ?>Html::a(<?= $generator->generateString('Create ' . Inflector::camel2words(StringHelper::basename($generator->modelClass))) ?>, ['update'], ['class' => 'btn btn-success']) ?>
     </p>
-    <?= $generator->enablePjax ? '<?php Pjax::begin(); ?>' : '' ?>
-    <?php if ($generator->indexWidgetType === 'grid'): ?>
+    <?= $generator->enablePjax ? '<?php Pjax::begin([\'id\'=>"'.Inflector::camel2id(StringHelper::basename($generator->modelClass)).'"]); ?>' : '' ?>
+    <?php if (!$generator->testNestedSet()): ?>
         <?= "<?= " ?>GridView::widget([
         'dataProvider' => $dataProvider,
         <?= !empty($generator->searchModelClass) ? "'filterModel' => \$searchModel,\n        'columns' => [\n" : "'columns' => [\n"; ?>
@@ -96,13 +96,10 @@ $this->params['breadcrumbs'][] = $this->title;
         ],
         ]); ?>
     <?php else: ?>
-        <?= "<?= " ?>ListView::widget([
-        'dataProvider' => $dataProvider,
-        'itemOptions' => ['class' => 'item'],
-        'itemView' => function ($model, $key, $index, $widget) {
-        return Html::a(Html::encode($model-><?= $nameAttribute ?>), ['view', <?= $urlParams ?>]);
-        },
-        ]) ?>
+        <?= "<?= " ?> Nestable::widget([
+            'autoQuery' => <?= $generator->modelClass ?>::find()
+        ])
+        ?>
     <?php endif; ?>
     <?= $generator->enablePjax ? '<?php Pjax::end(); ?>' : '' ?>
 </div>

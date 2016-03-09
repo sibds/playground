@@ -2725,12 +2725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "ceba70ecd601beaa8459bb89b3e3f1f4cb2f37f6"
+                "reference": "fddc28e6f72180f8a608c248ed441473ca0746d1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/ceba70ecd601beaa8459bb89b3e3f1f4cb2f37f6",
-                "reference": "ceba70ecd601beaa8459bb89b3e3f1f4cb2f37f6",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/fddc28e6f72180f8a608c248ed441473ca0746d1",
+                "reference": "fddc28e6f72180f8a608c248ed441473ca0746d1",
                 "shasum": ""
             },
             "require": {
@@ -2811,7 +2811,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-03-08 22:01:53"
+            "time": "2016-03-09 08:17:41"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -3045,12 +3045,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "86ec14457afce95c9ad57ee8394c57f57a1aaf43"
+                "reference": "74accbbb50bddf170eb6e51165d2b0b3b225de82"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/86ec14457afce95c9ad57ee8394c57f57a1aaf43",
-                "reference": "86ec14457afce95c9ad57ee8394c57f57a1aaf43",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/74accbbb50bddf170eb6e51165d2b0b3b225de82",
+                "reference": "74accbbb50bddf170eb6e51165d2b0b3b225de82",
                 "shasum": ""
             },
             "require": {
@@ -3087,7 +3087,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-03-07 10:07:20"
+            "time": "2016-03-09 08:49:09"
         },
         {
             "name": "phpspec/php-diff",

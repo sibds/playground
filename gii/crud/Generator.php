@@ -203,6 +203,15 @@ class Generator extends \yii\gii\Generator
         return $pk[0];
     }
 
+    public function testNestedSet()
+    {
+        $tableSchema = $this->getTableSchema();
+        $columns = $tableSchema->columns;
+        return array_key_exists('lft', $columns)&&
+                array_key_exists('rgt', $columns)&&
+                array_key_exists('depth', $columns);
+    }
+
     /**
      * Generates code for active field
      * @param string $attribute
@@ -238,6 +247,8 @@ class Generator extends \yii\gii\Generator
                 return "\$form->field(\$model, '$attribute')->widget(\\sibds\\widgets\\translitInput::className(), ['fromField'=>'name'])";
             }elseif (preg_match('/^(name|label|caption|subject)$/i', $column->name)) {
                 return "\$form->field(\$model, '$attribute')->textInput()";
+            } elseif (preg_match('/^(file|image)$/i', $attribute)) {
+                return "\$form->field(\$model, '$attribute')->widget(\\sibds\\widgets\\InputFile::className())";
             }else{
                 return "\$form->field(\$model, '$attribute')->widget(\\sibds\\widgets\\CKEditor::className(), ['options' => ['rows' => 6],]) ";
             }
@@ -279,6 +290,8 @@ class Generator extends \yii\gii\Generator
             ]
         ]
     ])";
+                } elseif (preg_match('/^(file|image)$/i', $attribute)) {
+                    return "\$form->field(\$model, '$attribute')->widget(\\sibds\\widgets\\InputFile::className())";
                 }else{
                     return "\$form->field(\$model, '$attribute')->$input(['maxlength' => true])";
                 }
