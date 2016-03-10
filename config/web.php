@@ -17,6 +17,9 @@ $config = [
         'news' => [
             'class' => 'app\modules\news\Module',
         ],
+        'news2' => [
+            'class' => 'app\modules\news2\Module',
+        ],
         'gridview' =>  [
             'class' => '\kartik\grid\Module',
             // enter optional module parameters below - only if you need to

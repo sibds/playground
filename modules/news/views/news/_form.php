@@ -9,6 +9,13 @@ use yii\widgets\ActiveForm;
 
 <div class="news-form">
 
+    <?php if (\Yii::$app->session->hasFlash('contactFormSubmitted')): ?>
+        <div class="alert alert-success">
+            <?=\Yii::$app->session->getFlash('contactFormSubmitted')?>
+            Thank you for contacting us. We will respond to you as soon as possible.
+        </div>
+    <?php endif; ?>
+
     <?php $form = ActiveForm::begin(); ?>
 
     <?= $form->field($model, 'name')->textInput() ?>
