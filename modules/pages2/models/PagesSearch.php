@@ -75,4 +75,15 @@ class PagesSearch extends Pages{
 
         return $dataProvider;
     }
+
+    public function trashSearch($params)
+    {
+        $dataProvider = $this->search($params);
+
+        $query = $dataProvider->query;
+
+        $query = $query->onlyRemoved();
+
+        return $dataProvider;
+    }
 }

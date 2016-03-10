@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "db7f1bd9d41e82f99925e73d3a3c9fc7",
-    "content-hash": "18d4c5dd0cd9c915d4a02d0e0a7904b3",
+    "hash": "a2e1c32f4b8fd7c8bce870122a0fca94",
+    "content-hash": "46f09f0a09d651b15b738bc7e4bbf32e",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -2319,12 +2319,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-gridhelper.git",
-                "reference": "6e1fa133325f7248bb46b34a14f15727542bac41"
+                "reference": "5088aed530314920bb9fcadac7b67f44ce23ba92"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-gridhelper/zipball/6e1fa133325f7248bb46b34a14f15727542bac41",
-                "reference": "6e1fa133325f7248bb46b34a14f15727542bac41",
+                "url": "https://api.github.com/repos/sibds/yii2-gridhelper/zipball/5088aed530314920bb9fcadac7b67f44ce23ba92",
+                "reference": "5088aed530314920bb9fcadac7b67f44ce23ba92",
                 "shasum": ""
             },
             "require": {
@@ -2353,7 +2353,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-03-06 20:55:09"
+            "time": "2016-03-10 06:39:01"
         },
         {
             "name": "sibds/yii2-htmleditor",
@@ -3045,12 +3045,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/fzaninotto/Faker.git",
-                "reference": "74accbbb50bddf170eb6e51165d2b0b3b225de82"
+                "reference": "588da2fff1b9da3acb9b6e1d7395e820102bde01"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/74accbbb50bddf170eb6e51165d2b0b3b225de82",
-                "reference": "74accbbb50bddf170eb6e51165d2b0b3b225de82",
+                "url": "https://api.github.com/repos/fzaninotto/Faker/zipball/588da2fff1b9da3acb9b6e1d7395e820102bde01",
+                "reference": "588da2fff1b9da3acb9b6e1d7395e820102bde01",
                 "shasum": ""
             },
             "require": {
@@ -3087,7 +3087,7 @@
                 "faker",
                 "fixtures"
             ],
-            "time": "2016-03-09 08:49:09"
+            "time": "2016-03-10 07:12:46"
         },
         {
             "name": "phpspec/php-diff",
@@ -3122,6 +3122,46 @@
             ],
             "description": "A comprehensive library for generating differences between two hashable objects (strings or arrays).",
             "time": "2013-11-01 13:02:21"
+        },
+        {
+            "name": "sibds/yii2-sibds-gii",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sibds/yii2-sibds-gii.git",
+                "reference": "6a4af136abd07a7b174b14b102f18ebb522eeec1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sibds/yii2-sibds-gii/zipball/6a4af136abd07a7b174b14b102f18ebb522eeec1",
+                "reference": "6a4af136abd07a7b174b14b102f18ebb522eeec1",
+                "shasum": ""
+            },
+            "require": {
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sibds\\gii\\": "gii/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Vadim Mazur",
+                    "email": "mazurva@gmail.com"
+                }
+            ],
+            "description": "SibDS generators for Yii2-Gii",
+            "keywords": [
+                "gii",
+                "yii2"
+            ],
+            "time": "2016-03-10 09:46:03"
         },
         {
             "name": "yiisoft/yii2-codeception",

@@ -24,7 +24,7 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'locked')->checkbox() ?>
 
-    <?= $form->field($model, , 'layout')->widget(\kartik\select2\Select2::className(), [
+    <?= $form->field($model, 'layout')->widget(\kartik\select2\Select2::className(), [
         'data'=>\Yii::$app->controller->getLayouts(),
         'options' => ['placeholder' => 'Значение по умолчанию'],
         'addon' => [

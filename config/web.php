@@ -100,24 +100,14 @@ if (YII_ENV_DEV) {
         'class' => 'yii\gii\Module',
         'generators' => [
             'SModel' => [
-                'class' => 'app\gii\model\Generator',
-                'templates' => [
-                    'my' => '@app/gii/model/default',
-                ]
+                'class' => 'sibds\gii\model\Generator',
             ],
             'SModule' => [
-                'class' => 'app\gii\module\Generator',
-                'templates' => [
-                    'my' => '@app/gii/module/default',
-                ]
+                'class' => 'sibds\gii\module\Generator',
             ],
             'SCrud' => [
-                'class' => 'app\gii\crud\Generator',
-                'templates' => [
-                    'my' => '@app/gii/crud/default',
-                ]
+                'class' => 'sibds\gii\crud\Generator',
             ],
-
         ],
     ];
 }
