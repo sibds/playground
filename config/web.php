@@ -11,6 +11,9 @@ $config = [
         'pages' => [
             'class' => 'app\modules\pages\Module',
         ],
+        'pages2' => [
+            'class' => 'app\modules\pages2\Module',
+        ],
         'news' => [
             'class' => 'app\modules\news\Module',
         ],

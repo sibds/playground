@@ -57,7 +57,7 @@ $this->params['breadcrumbs'][] = $this->title;
                         echo "
            [
                'class' => 'sibds\\grid\\UrlColumn',
-               'attribute'=>" . $column->name . ",
+               'attribute'=>'" . $column->name . "',
                'width' => '50px',
                'hAlign' => 'center',
            ],\n";

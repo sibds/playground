@@ -8,7 +8,9 @@
 
 namespace app\gii\module;
 
-
+use \Yii;
+use yii\gii\CodeFile;
+use yii\helpers\StringHelper;
 
 class Generator extends \yii\gii\Generator
 {
