@@ -2489,12 +2489,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-standart-controller.git",
+<<<<<<< HEAD
                 "reference": "eb3b88ac662eeaa0419e81d6b0acc7b56d957e3a"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/sibds/yii2-standart-controller/zipball/eb3b88ac662eeaa0419e81d6b0acc7b56d957e3a",
                 "reference": "eb3b88ac662eeaa0419e81d6b0acc7b56d957e3a",
+=======
+                "reference": "a7626ccdd0c421fde86372cf3e57d0b51cf1547e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sibds/yii2-standart-controller/zipball/a7626ccdd0c421fde86372cf3e57d0b51cf1547e",
+                "reference": "a7626ccdd0c421fde86372cf3e57d0b51cf1547e",
+>>>>>>> fcca02338fdd2bf2d5d19fe8ceb926a7d574594e
                 "shasum": ""
             },
             "require": {
@@ -2523,7 +2532,11 @@
                 "extension",
                 "yii2"
             ],
+<<<<<<< HEAD
             "time": "2016-03-10 17:56:19"
+=======
+            "time": "2016-03-10 12:24:44"
+>>>>>>> fcca02338fdd2bf2d5d19fe8ceb926a7d574594e
         },
         {
             "name": "sibds/yii2-synctranslit",
@@ -2725,12 +2738,21 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
+<<<<<<< HEAD
                 "reference": "6798f7708b36c485cd45c78e22ab5126c10fbf28"
             },
             "dist": {
                 "type": "zip",
                 "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/6798f7708b36c485cd45c78e22ab5126c10fbf28",
                 "reference": "6798f7708b36c485cd45c78e22ab5126c10fbf28",
+=======
+                "reference": "b5fa1f8fb1559ea6765b9b428921a27310d24792"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/b5fa1f8fb1559ea6765b9b428921a27310d24792",
+                "reference": "b5fa1f8fb1559ea6765b9b428921a27310d24792",
+>>>>>>> fcca02338fdd2bf2d5d19fe8ceb926a7d574594e
                 "shasum": ""
             },
             "require": {
@@ -2811,7 +2833,11 @@
                 "framework",
                 "yii2"
             ],
+<<<<<<< HEAD
             "time": "2016-03-10 19:27:53"
+=======
+            "time": "2016-03-10 16:13:46"
+>>>>>>> fcca02338fdd2bf2d5d19fe8ceb926a7d574594e
         },
         {
             "name": "yiisoft/yii2-bootstrap",

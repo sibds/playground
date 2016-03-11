@@ -43,7 +43,8 @@ class News extends \sibds\components\ActiveRecord
         return [
             [['name', 'url', 'content'], 'required'],
             [['name', 'url', 'image', 'annotation', 'content'], 'string'],
-            [['category_id', 'created_by', 'updated_by', 'removed', 'locked'], 'integer'],
+            [['category_id', 'created_by', 'updated_by'], 'integer'],
+            [['removed', 'locked'], 'boolean'],
             [['date_public'], 'string', 'max' => 10],
             [['layout'], 'string', 'max' => 50],
         ];
