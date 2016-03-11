@@ -12,6 +12,8 @@ class Module extends \yii\base\Module
     */
     public $controllerNamespace = 'app\modules\news2\controllers';
 
+    public $defaultRoute = 'news/list';
+
     /**
     * @inheritdoc
     */
