@@ -25,7 +25,8 @@ use Yii;
 */
 class News extends \sibds\components\ActiveRecord
 {
-    public static $BEFORE_QUERY = ['removed' => 0];
+    // public static $BEFORE_QUERY = []; // for admin with categories
+    public static $BEFORE_QUERY = ['removed' => 0]; // for admin
     /**
     * @inheritdoc
     */
@@ -42,7 +43,8 @@ class News extends \sibds\components\ActiveRecord
         return [
             [['name', 'url', 'image', 'annotation', 'content'], 'required'],
             [['name', 'url', 'image', 'annotation', 'content'], 'string'],
-            [['category_id', 'created_by', 'updated_by', 'removed', 'locked'], 'integer'],
+            [['category_id', 'created_by', 'updated_by'], 'integer'],
+            [['removed', 'locked'], 'boolean'],
             [['date_public'], 'string', 'max' => 10],
             [['layout'], 'string', 'max' => 50],
         ];
