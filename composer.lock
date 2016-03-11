@@ -1705,12 +1705,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/kartik-v/yii2-widget-select2.git",
-                "reference": "4d03239c1e28ef8d3b96ab7fe360f5cbda34fb69"
+                "reference": "cb2a5992cb96bd2939e30ec1c76eba418d6a30af"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/kartik-v/yii2-widget-select2/zipball/4d03239c1e28ef8d3b96ab7fe360f5cbda34fb69",
-                "reference": "4d03239c1e28ef8d3b96ab7fe360f5cbda34fb69",
+                "url": "https://api.github.com/repos/kartik-v/yii2-widget-select2/zipball/cb2a5992cb96bd2939e30ec1c76eba418d6a30af",
+                "reference": "cb2a5992cb96bd2939e30ec1c76eba418d6a30af",
                 "shasum": ""
             },
             "require": {
@@ -1750,7 +1750,7 @@
                 "widget",
                 "yii2"
             ],
-            "time": "2016-02-17 11:49:30"
+            "time": "2016-03-10 11:33:59"
         },
         {
             "name": "kartik-v/yii2-widget-sidenav",
@@ -2165,12 +2165,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-activerecord.git",
-                "reference": "5f165957055e56703dd7a7a96a24ead8aa829664"
+                "reference": "4d1f2ae93bc07a9001a36f0a0a8657dd13d03ecb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-activerecord/zipball/5f165957055e56703dd7a7a96a24ead8aa829664",
-                "reference": "5f165957055e56703dd7a7a96a24ead8aa829664",
+                "url": "https://api.github.com/repos/sibds/yii2-activerecord/zipball/4d1f2ae93bc07a9001a36f0a0a8657dd13d03ecb",
+                "reference": "4d1f2ae93bc07a9001a36f0a0a8657dd13d03ecb",
                 "shasum": ""
             },
             "require": {
@@ -2206,7 +2206,7 @@
                 "components",
                 "yii2"
             ],
-            "time": "2016-03-06 20:32:23"
+            "time": "2016-03-11 03:52:03"
         },
         {
             "name": "sibds/yii2-ckeditor-widget",
@@ -2489,12 +2489,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-standart-controller.git",
-                "reference": "30e35168f3a0dd29681f11ad1a90a2ed9a43ddae"
+                "reference": "eb3b88ac662eeaa0419e81d6b0acc7b56d957e3a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-standart-controller/zipball/30e35168f3a0dd29681f11ad1a90a2ed9a43ddae",
-                "reference": "30e35168f3a0dd29681f11ad1a90a2ed9a43ddae",
+                "url": "https://api.github.com/repos/sibds/yii2-standart-controller/zipball/eb3b88ac662eeaa0419e81d6b0acc7b56d957e3a",
+                "reference": "eb3b88ac662eeaa0419e81d6b0acc7b56d957e3a",
                 "shasum": ""
             },
             "require": {
@@ -2523,7 +2523,7 @@
                 "extension",
                 "yii2"
             ],
-            "time": "2016-03-06 22:25:39"
+            "time": "2016-03-10 17:56:19"
         },
         {
             "name": "sibds/yii2-synctranslit",
@@ -2725,12 +2725,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "fddc28e6f72180f8a608c248ed441473ca0746d1"
+                "reference": "6798f7708b36c485cd45c78e22ab5126c10fbf28"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/fddc28e6f72180f8a608c248ed441473ca0746d1",
-                "reference": "fddc28e6f72180f8a608c248ed441473ca0746d1",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/6798f7708b36c485cd45c78e22ab5126c10fbf28",
+                "reference": "6798f7708b36c485cd45c78e22ab5126c10fbf28",
                 "shasum": ""
             },
             "require": {
@@ -2811,7 +2811,7 @@
                 "framework",
                 "yii2"
             ],
-            "time": "2016-03-09 08:17:41"
+            "time": "2016-03-10 19:27:53"
         },
         {
             "name": "yiisoft/yii2-bootstrap",
@@ -3129,12 +3129,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sibds/yii2-sibds-gii.git",
-                "reference": "6a4af136abd07a7b174b14b102f18ebb522eeec1"
+                "reference": "962d188231725f78b970442a58d5982f163b0e33"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sibds/yii2-sibds-gii/zipball/6a4af136abd07a7b174b14b102f18ebb522eeec1",
-                "reference": "6a4af136abd07a7b174b14b102f18ebb522eeec1",
+                "url": "https://api.github.com/repos/sibds/yii2-sibds-gii/zipball/962d188231725f78b970442a58d5982f163b0e33",
+                "reference": "962d188231725f78b970442a58d5982f163b0e33",
                 "shasum": ""
             },
             "require": {
@@ -3161,7 +3161,7 @@
                 "gii",
                 "yii2"
             ],
-            "time": "2016-03-10 09:46:03"
+            "time": "2016-03-10 12:28:02"
         },
         {
             "name": "yiisoft/yii2-codeception",
