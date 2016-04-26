@@ -45,6 +45,7 @@ AppAsset::register($this);
                 ['label' => 'Category editor', 'url' => ['/nscategory/index']],
             ]],
             ['label' => 'Modules', 'items' => [
+                ['label' => 'Gallery', 'url' => ['/gallery/gallery/index']],
                 ['label' => 'Pages', 'url' => ['/pages/pages/list']],
                 ['label' => 'News', 'url' => ['/news/news/list']],
             ]],
