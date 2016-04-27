@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5193cd6a7007e30c7f5bea463d5b04b4",
-    "content-hash": "96128f4961126ceb709dce4f84fd6304",
+    "hash": "d640f212e534b55a3628c264f6da8fa3",
+    "content-hash": "67efcb5e7d287cf8a0240067c5154c29",
     "packages": [
         {
             "name": "bower-asset/bootstrap",
@@ -307,7 +307,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/6519c0af4b8b6abc6cb56dad3e0085eb638fbee1",
+                "url": "https://api.github.com/repos/lipis/flag-icon-css/zipball/c79bf8fc99026160ac3cd89e61107328545f869d",
                 "reference": "6519c0af4b8b6abc6cb56dad3e0085eb638fbee1",
                 "shasum": ""
             },
@@ -2193,7 +2193,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/9f2d761e7ac1d89a6752a18036a597fa9ce2d8c7",
+                "url": "https://api.github.com/repos/mpdf/mpdf/zipball/27641244fbd6c42e875b2ef3625bc7aa1db8af8f",
                 "reference": "9f2d761e7ac1d89a6752a18036a597fa9ce2d8c7",
                 "shasum": ""
             },
@@ -2229,6 +2229,90 @@
                 "utf-8"
             ],
             "time": "2015-06-17 07:26:51"
+        },
+        {
+            "name": "sadovojav/yii2-gallery-module",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sadovojav/yii2-gallery-module.git",
+                "reference": "c3fb4d2c77d893731b67d421d059fd5753db98fd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sadovojav/yii2-gallery-module/zipball/c3fb4d2c77d893731b67d421d059fd5753db98fd",
+                "reference": "c3fb4d2c77d893731b67d421d059fd5753db98fd",
+                "shasum": ""
+            },
+            "require": {
+                "kartik-v/yii2-grid": "*",
+                "kartik-v/yii2-widgets": "*",
+                "php": ">=5.4.0",
+                "sadovojav/yii2-inline-widgets-behavior": "dev-master",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sadovojav\\gallery\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Aleksandr Sadovoj",
+                    "email": "sadovojav@gmail.com",
+                    "homepage": "https://github.com/sadovojav"
+                }
+            ],
+            "description": "Yii2 gallery module",
+            "keywords": [
+                "gallery",
+                "module",
+                "yii2"
+            ],
+            "time": "2015-09-26 20:23:26"
+        },
+        {
+            "name": "sadovojav/yii2-inline-widgets-behavior",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sadovojav/yii2-inline-widgets-behavior.git",
+                "reference": "a381a6255665620bdbec11944c82b6df1c6b035e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sadovojav/yii2-inline-widgets-behavior/zipball/a381a6255665620bdbec11944c82b6df1c6b035e",
+                "reference": "a381a6255665620bdbec11944c82b6df1c6b035e",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0",
+                "yiisoft/yii2": "*"
+            },
+            "type": "yii2-extension",
+            "autoload": {
+                "psr-4": {
+                    "sadovojav\\iwb\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Aleksandr Sadovoj",
+                    "email": "sadovojav@gmail.com",
+                    "homepage": "https://github.com/sadovojav"
+                }
+            ],
+            "description": "Add widget into content",
+            "keywords": [
+                "behaviors",
+                "inline",
+                "widget",
+                "yii2"
+            ],
+            "time": "2015-09-26 19:19:47"
         },
         {
             "name": "sibds/yii2-activerecord",
@@ -2800,7 +2884,7 @@
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/7cf528c798e59db5b2bdd511fe0279d9b369c09a",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/38a273269f57dd08ad0189b9e0d5f8b68009231b",
                 "reference": "7cf528c798e59db5b2bdd511fe0279d9b369c09a",
                 "shasum": ""
             },
@@ -3538,7 +3622,8 @@
         "sibds/yii2-formfooter": 20,
         "kartik-v/yii2-tree-manager": 20,
         "sibds/yii2-standart-controller": 20,
-        "zxbodya/yii2-gallery-manager": 20
+        "zxbodya/yii2-gallery-manager": 20,
+        "sadovojav/yii2-gallery-module": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

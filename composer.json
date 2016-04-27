@@ -35,7 +35,8 @@
         "kartik-v/yii2-tabs-x": "*",
         "kartik-v/yii2-checkbox-x": "*",
         "sibds/yii2-standart-controller": "dev-master",
-        "zxbodya/yii2-gallery-manager": "*@dev"
+        "zxbodya/yii2-gallery-manager": "*@dev",
+        "sadovojav/yii2-gallery-module": "dev-master"
     },
     "require-dev": {
         "yiisoft/yii2-codeception": "*",

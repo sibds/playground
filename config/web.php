@@ -20,8 +20,11 @@ $config = [
         'news2' => [
             'class' => 'app\modules\news2\Module',
         ],
-        'gallery' => [
+        'gallery2' => [
             'class' => 'app\modules\gallery\Module',
+        ],
+        'gallery' => [
+            'class' => 'sadovojav\gallery\Module',
         ],
         'gridview' =>  [
             'class' => '\kartik\grid\Module',
